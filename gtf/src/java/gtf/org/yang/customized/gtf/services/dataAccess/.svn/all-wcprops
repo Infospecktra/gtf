@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess
+END
+DateTextItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/DateTextItem.java
+END
+ProjectDataAccessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectDataAccessException.java
+END
+ProjectList.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectList.java
+END
+Stage.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/Stage.java
+END
+ProbeCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProbeCase.java
+END
+Storage.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/Storage.java
+END
+Timetable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/Timetable.java
+END
+Project.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/Project.java
+END
+ProjectViewer.java_addDomainAttribute
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectViewer.java_addDomainAttribute
+END
+Record.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/Record.java
+END
+ScheduleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ScheduleDAO.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/Message.java
+END
+ProjectViewer.java.bak
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectViewer.java.bak
+END
+StorageSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/StorageSource.java
+END
+ProjectFactoryInitializationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectFactoryInitializationException.java
+END
+ProjectDAO.java.bak
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectDAO.java.bak
+END
+Karyotype.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/Karyotype.java
+END
+StageDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/StageDAO.java
+END
+ProjectViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectViewer.java
+END
+ProjectDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectDAO.java
+END
+TimetableDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/TimetableDAO.java
+END
+DAOFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/DAOFactory.java
+END
+Schedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/Schedule.java
+END
+ProjectInitializationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectInitializationException.java
+END
+ProjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectFactory.java
+END
+ProjectComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/ProjectComparator.java
+END

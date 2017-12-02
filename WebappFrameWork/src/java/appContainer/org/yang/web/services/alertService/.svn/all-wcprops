@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService
+END
+AlertServiceFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService/AlertServiceFactory.java
+END
+AlertServiceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService/AlertServiceManager.java
+END
+Delivery.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService/Delivery.java
+END
+Alert.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService/Alert.java
+END
+Email.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService/Email.java
+END
+AlertService.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService/AlertService.java
+END
+AlertServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService/AlertServiceImpl.java
+END
+AlertDeliveryMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService/AlertDeliveryMethod.java
+END
+AlertSendingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/alertService/AlertSendingException.java
+END

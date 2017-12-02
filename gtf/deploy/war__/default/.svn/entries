@@ -1,0 +1,110 @@
+10
+
+dir
+34
+https://192.168.0.90:9443/svn/Infospecktra/trunk/gtf/deploy/war/default
+https://192.168.0.90:9443/svn/Infospecktra
+
+
+
+2013-06-05T20:26:21.150125Z
+2
+celina
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+cd7c4564-3f4c-b54f-b218-d604ec4a49ca
+
+tglScheduler
+dir
+
+debug
+dir
+
+css
+dir
+
+projectViewer
+dir
+
+projects
+dir
+
+maindesk
+dir
+
+engineer
+dir
+
+reports
+dir
+
+index.htm
+file
+
+
+
+
+2013-07-08T03:36:01.885475Z
+2530d05c50145f9c0e8beb5b55467740
+2013-06-05T20:26:21.150125Z
+2
+celina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+732
+
+admindesk
+dir
+
+share
+dir
+
+images
+dir
+
+messageService
+dir
+
+login
+dir
+
+scheduleService
+dir
+
+scheduler
+dir
+
+inventoryService
+dir
+

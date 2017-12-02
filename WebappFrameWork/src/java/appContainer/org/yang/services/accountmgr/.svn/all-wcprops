@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/UserDAO.java
+END
+BuildSuperData.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/BuildSuperData.java
+END
+UserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/UserManager.java
+END
+PermissionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/PermissionDAO.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/User.java
+END
+GroupDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/GroupDAO.java
+END
+SignOnOccupy.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/SignOnOccupy.java
+END
+SignOnDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/SignOnDAO.java
+END
+Encrypt.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/Encrypt.java
+END
+AccountDataAccessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/AccountDataAccessException.java
+END
+Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/Resource.java
+END
+SignOnManagerMem.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/SignOnManagerMem.java
+END
+Permission.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/Permission.java
+END
+SignOnManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/SignOnManager.java
+END
+DAOFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/DAOFactory.java
+END
+SignOnUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/SignOnUser.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/Group.java
+END
+SignOnManagerDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/accountmgr/SignOnManagerDB.java
+END

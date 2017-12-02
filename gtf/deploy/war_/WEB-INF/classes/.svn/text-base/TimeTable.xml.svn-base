@@ -1,0 +1,45 @@
+<project-timetable>
+   <project type="TGL">
+      <stages       name     = "order|pms|mate|plug|experiment|transfer" />
+      <timetables   type     = "P-Injection" >
+         <timetable id       = "Donor"
+                    timeline = "-3|-1|0|0|"  />
+         <timetable id       = "Surrogate0.5"
+                    timeline = "|-1|0||0"    />
+         <timetable id       = "Surrogate0.5BAC"
+                    timeline = "|-1|0||0"    />
+      </timetables>
+      <timetables   type     = "B-Injection" >
+         <timetable id       = "Donor"
+                    timeline = "-6|-4|-3|0|" />
+         <timetable id       = "Surrogate2.5"
+                    timeline = "|-3|-2||0"   />
+      </timetables>
+      <timetables   type     = "Cryopreservation" >
+         <timetable id       = "Donor"
+                    timeline = "-5|-3|-2|0|" />
+         <timetablex id       = "Surrogate0.5"
+                    timeline = "|-1|0||0"    />
+         <timetablex id       = "Surrogate2.5"
+                    timeline = "|-3|-2||0"   />
+      </timetables>
+      <timetables   type     = "IVF" >
+         <timetable id       = "Donor"
+                    timeline  = "-3|-1|0|0|" />
+      </timetables>
+      <timetables   type     = "ICSI" >
+         <timetable id       = "Donor"
+                    timeline = "-3|-1|0|0|" />
+      </timetables>
+      <timetables   type     = "Aggregation" >
+         <timetable id       = "Donor"
+                    timeline = "-5|-3|-2|0|" />
+         <timetable id       = "Surrogate2.5"
+                    timeline = "|-3|-2||0"     />
+      </timetables>
+      <timetables   type     = "Rederivation" >
+         <timetable id       = "Donor"
+                    timeline = "-3|-1|0|0|" />
+      </timetables>
+   </project>
+</project-timetable>

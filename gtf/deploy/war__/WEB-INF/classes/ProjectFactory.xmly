@@ -1,0 +1,174 @@
+<projectFactory>
+   <operation name="access"/>
+   <operation name="delete"/>
+   <operation name="update"/>      
+
+   <!-- *********************** -->
+   <!-- *    GTF project      * -->
+   <!-- *********************** -->
+
+   <project type="GT" displayTypeName="Gene Targeting" isDefault="yes">
+      <dataGroup name="constructInfo" displayName="Construction Inormation" displayOrder="0">
+         <data name="dnaConcentrationNVolume" displayName="DNA Concentration N Volume" briefDisplayName="DNA CN Vol." isRequired="yes" displayOrder="0" type="String"/>
+         <data name="linearizationEnzyme" displayName="Linearization Enzyme" briefDisplayName="L Enzyme" displayOrder="1" type="String"/>
+         <data name="geneticBackground" displayName="Genetic Background" briefDisplayName="Genetic Background" displayOrder="2" type="String"/>
+         <data name="esCelline" displayName="ES Cell Line" briefDisplayName="ES Cell Line" displayOrder="3" type="String"/>
+         <data name="positiveSelection" displayName="Positive Selection" briefDisplayName="+ Select" displayOrder="4" type="String"/>
+         <data name="negativeSelection" displayName="Negative Selection" briefDisplayName="- Select" displayOrder="5" type="String"/>
+         <data name="colonies#" displayName="colonies #" briefDisplayName="Colony #" displayOrder="6" type="int"/>
+      </dataGroup>
+      <dataGroup name="SCInfo" displayName="Southern Screening Information" displayOrder="1">
+         <data name="enzyme" displayName="Enzyme" briefDisplayName="Enzyme" displayOrder="7" type="String"/>
+         <data name="probename" displayName="Probe Nname" briefDisplayName="Probe" displayOrder="8" type="String"/>
+         <data name="probeConcentrationAndVolume" displayName="Concentration/Volume" briefDisplayName="CN/Vol" unit="ul" displayOrder="9" type="String"/>
+         <data name="fragmentSize" displayName="Fragment Size" briefDisplayName="Fragment Size" unit="kb" displayOrder="10" type="int"/>
+      </dataGroup>
+      <stages>
+         <stage name="DNA Prep1" dateOnMasterTable="no" dateDisplayName="Linearization Date" dateDisplayFormat="yyyy/MM/dd">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="linearizationDate" displayName="Linearization Date" onMasterTable="yes" briefDisplayName="Linearization Date" displayOrder="0" type="String" availForClient="yes"/>           
+            </dataGroup>
+         </stage>
+         <stage name="Electroporation" dateOnMasterTable="no" dateDisplayName="Electro. Date" dateDisplayFormat="yyyy/MM/dd">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="date" displayName="Electro. Date" onMasterTable="yes" briefDisplayName="Date" displayOrder="0" type="String" availForClient="yes"/>
+            </dataGroup>
+         </stage>
+         <stage name="Picking Colony">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="numOfColony/date" displayName="Colony #/Date" onMasterTable="yes" briefDisplayName="Colony #/date" displayOrder="0" type="int"/>
+            </dataGroup>
+         </stage>
+         <stage name="MP Frozen">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="mPFrozendate" displayName="MP Frozen Date" onMasterTable="yes" briefDisplayName="MP Frozen Date" displayOrder="0" type="String" availForClient="yes"/>
+            </dataGroup>
+         </stage>
+         <stage name="ES DNA Due">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="eSDNADue" displayName="ES DNA Due Date" onMasterTable="yes" briefDisplayName="ES DNA Due Date" displayOrder="0" type="String" availForClient="yes"/>
+            </dataGroup>
+         </stage>
+         <stage name="Southern analysis">
+            <dataGroup name="data" displayName="Data" displayOrder="1">
+               <data name="posCloneId/date" displayName="Positive Clone ID/date" onMasterTable="yes" briefDisplayName="Pos. Clone ID/date" displayOrder="1" type="String"/>
+            </dataGroup>
+         </stage>
+         <stage name="Pos. Clone Thawed" ownerType="client">
+            <dataGroup name="data" displayName="Data" displayOrder="2">
+               <data name="pos.CloneThawed" displayName="Pos. Clone Thawed/date" onMasterTable="yes" briefDisplayName="Pos. Clone Thawed/date" displayOrder="0" type="String" availForClient="yes"/>
+            </dataGroup>
+         </stage>
+         <stage name="Injection">
+         </stage>
+         <stage name="Final Review">
+         </stage>
+      </stages>
+   </project>
+   <project type="P-Inj" displayTypeName="Pronuclear Injection">
+      <dataGroup name="projectInformation" displayName="Project Information" displayOrder="0">
+         <data name="dNAType" displayName="Project Type" briefDisplayName="DNA Type" displayOrder="0" type="String"/>
+         <data name="embryoBackground" displayName="Embryo Background" briefDisplayName="Emb Background" displayOrder="1" type="String"/>
+         <data name="dnaInformation/VectorSize" displayName="DNA Inormation/Vector Size" briefDisplayName="DNA Information/Vector Size" displayOrder="2" type="String"/>
+         <data name="insertsize" displayName="Insert Size" briefDisplayName="Insert Size" displayOrder="2" type="String"/>         
+         <data name="sizeofDNAfragment" displayName="Size of DNA Fragment" briefDisplayName="Size of DNA Fragment" displayOrder="2" type="String"/>
+         <data name="dNAconcentration" displayName="DNA Concentration" briefDisplayName="DNA Concentration" displayOrder="2" type="String"/>
+         <data name="dnaamountsumbit" displayName="DNA Amount Submit" briefDisplayName="DNA Amount Submit" displayOrder="2" type="String"/>      
+         <data name="animalRoom" displayName="Animal Room" briefDisplayName="Animal Room" displayOrder="3" type="String"/>
+      </dataGroup>
+      <stages>
+         <stage name="DNA prep.">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="Photo" displayName="photo" briefDisplayName="photo" displayOrder="0" type="photoBinary"/>
+            </dataGroup>
+         </stage>
+         <stage name="Microinjection">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="#EmbInj" displayName="# Emb Inj" onMasterTable="yes" briefDisplayName="Emb Inj" displayOrder="0" type="int" isMultiInstance="yes"/>
+               <data name="#EmbTrans" displayName="# Emb Trans" onMasterTable="yes" briefDisplayName="# Emb Trans" displayOrder="1" type="int" isMultiInstance="yes"/>
+               <data name="#Recip" displayName="# Recip" onMasterTable="yes" briefDisplayName="# Recip" displayOrder="2" type="int" isMultiInstance="yes"/>
+               <data name="dnaConc" displayName="DNA Conc" onMasterTable="yes" briefDisplayName="DNA Conc" displayOrder="3" type="int" availForClient="yes" isMultiInstance="yes"/>
+               <data name="by" displayName="by" onMasterTable="yes" briefDisplayName="by" displayOrder="4" type="int" isMultiInstance="yes"/>
+            </dataGroup>
+         </stage>
+         <stage name="Pups born">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="pups#" displayName="Pups #" onMasterTable="yes" briefDisplayName="Pups #" displayOrder="0" type="int"/>
+            </dataGroup>
+         </stage>
+         <stage name="Tail cutting">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="tail-tipsDue" displayName="Tail-tips Due" onMasterTable="yes" briefDisplayName="Tail-tips Due" displayOrder="0" type="int"/>
+               <data name="dateSerolTestSubmit" displayName="Date Serol Test Submit" onMasterTable="yes" briefDisplayName="Date Serol Test Sumbit" displayOrder="0" type="int"/>
+               <data name="serolTestResult" displayName="Serol Test Result" onMasterTable="yes" briefDisplayName="Serol Test Result" displayOrder="0" type="int"/> 
+            </dataGroup>
+         </stage>
+         <stage name="Investigator feedback" ownerType="client">
+            <dataGroup name="data" displayName="Data" displayOrder="2">
+               <data name="investigatorFeedback" displayName="Invest Feedback" onMasterTable="yes" briefDisplayName="Invest Feedback" displayOrder="0" type="String"/>
+            </dataGroup>
+         </stage>
+         <stage name="Animal transfer">
+            <dataGroup name="data" displayName="Data" displayOrder="2">
+               <data name="dateOfRoomTransfer" displayName="Date of room transfer" onMasterTable="yes" briefDisplayName="date of RT" displayOrder="0" type="String"/>
+            </dataGroup>
+         </stage>
+         <stage name="Check out">
+         </stage>
+      </stages>
+   </project>
+   <project type="B-Inj" displayTypeName="Blastocyst Injection">
+   
+        <dataGroup name="projectInformation" displayName="Project Information" displayOrder="0">
+         <data name="projectType" displayName="Project Type" briefDisplayName="Project Type" displayOrder="0" type="String"/>
+         <data name="eSCellLine" displayName="ES Cell Line" briefDisplayName="ES Cell Line" displayOrder="1" type="String"/>
+         <data name="geneticBackgroundOfEsCell" displayName="Genetic Background of ES Cell" briefDisplayName="Genetic Background of ES Cell" displayOrder="2" type="String"/>
+         <data name="geneticBackgroundOfBlastocystHost" displayName="Genetic Background of Blastocyst Host" briefDisplayName="Genetic Background of Blastocyst Host" displayOrder="2" type="String"/>
+      
+         <data name="animalRoom" displayName="Animal Room" briefDisplayName="Animal Room" displayOrder="3" type="String"/>
+      </dataGroup>
+      
+      <stages>
+         <stage name="Cell prep.">
+         </stage>
+         <stage name="Microinjection">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="#EmbInj" displayName="# Emb Inj" onMasterTable="yes" briefDisplayName="Emb Inj" displayOrder="0" type="int" isMultiInstance="yes"/>
+               <data name="#EmbTrans" displayName="# Emb Trans" onMasterTable="yes" briefDisplayName="# Emb Trans" displayOrder="1" type="int" isMultiInstance="yes"/>
+               <data name="#Recip" displayName="# Recip" onMasterTable="yes" briefDisplayName="# Recip" displayOrder="2" type="int" isMultiInstance="yes"/>
+             
+               <data name="dnaConc" displayName="#EsCell/Host" onMasterTable="yes" briefDisplayName="#ES Cell/Host" displayOrder="4" type="int" availForClient="yes" isMultiInstance="yes"/>
+               <data name="by" displayName="by" onMasterTable="yes" briefDisplayName="by" displayOrder="3" type="int" isMultiInstance="yes"/>
+            </dataGroup>
+         </stage>
+         <stage name="Pups born">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="pups#" displayName="Pups #" onMasterTable="yes" briefDisplayName="Pups #" displayOrder="0" type="int"/>
+            </dataGroup>
+         </stage>
+         <stage name="Estimation of chimerism">
+            <dataGroup name="data" displayName="Data" displayOrder="0">
+               <data name="NumberOfChimerism" displayName="Number of chimerism" onMasterTable="yes" briefDisplayName="# of chimerism" displayOrder="0" type="String"/>
+            </dataGroup>
+         </stage>
+          <data name="dateSerolTestSubmit" displayName="Date Serol Test Submit" onMasterTable="yes" briefDisplayName="Date Serol Test Sumbit" displayOrder="0" type="int"/>
+               <data name="serolTestResult" displayName="Serol Test Result" onMasterTable="yes" briefDisplayName="Serol Test Result" displayOrder="0" type="int"/>
+ <stage name="Investigator feedback" ownerType="both">
+            <dataGroup name="data" displayName="Data" displayOrder="2">
+               <data name="data5.1" displayName="investigatorFeedback" onMasterTable="yes" briefDisplayName="Investigator's feedback" displayOrder="0" type="String"/>
+            </dataGroup>
+         </stage>
+         <stage name="Animal transfer">
+            <dataGroup name="data" displayName="Data" displayOrder="2">
+               <data name="dateOfRoomTransfer" displayName="Date of room transfer" onMasterTable="yes" briefDisplayName="date of RT" displayOrder="0" type="String"/>
+                     </dataGroup>
+         </stage>
+         <stage name="Animal transfer">
+            <dataGroup name="data" displayName="Data" displayOrder="2">
+               <data name="dateOfRoomTransfer" displayName="Date of room transfer" onMasterTable="yes" briefDisplayName="date of RT" displayOrder="0" type="String"/>
+           
+            </dataGroup>
+         </stage>
+      </stages>
+   </project>
+</projectFactory>

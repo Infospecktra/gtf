@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>**Web Application Framework</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <script language="JavaScript">
+      var appWindow;
+      var swWidth = 800;
+      var swHeight = 600;
+      if (appWindow==null)
+      {
+        appWindow = window.open("login.wf","appWindow","width="+swWidth+",height="+swHeight+",scrollbars=yes,menubar=no,toolbar=no,status=yes,resizable=yes");
+        appWindow.moveTo(0,0);
+        appWindow.resizeTo(screen.availWidth,screen.availHeight);
+        appWindow.focus();
+      }
+      else 
+      {
+        appWindow.focus();
+      }
+    </script>
+  </body>
+</html>

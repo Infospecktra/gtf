@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib
+END
+dbService.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/dbService.jar
+END
+commons-lang-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/commons-lang-2.0.jar
+END
+commons-fileupload-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/commons-fileupload-1.0.jar
+END
+jai_core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/jai_core.jar
+END
+jxl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/jxl.jar
+END
+util.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/util.jar
+END
+messageBus.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/messageBus.jar
+END
+gtf.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Infospecktra/!svn/ver/35/trunk/gtf/deploy/war/WEB-INF/lib/gtf.jar
+END
+jai_codec.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/jai_codec.jar
+END
+Keypoint.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/Keypoint.jar
+END
+appContainer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war/WEB-INF/lib/appContainer.jar
+END

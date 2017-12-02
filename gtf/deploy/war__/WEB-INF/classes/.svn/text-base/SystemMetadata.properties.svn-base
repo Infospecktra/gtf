@@ -1,0 +1,42 @@
+#text metadata
+text.mms_retrieval_key=s|Retrieval Key|s||/content/@retrieval-key
+text.mms_base_id=s|Base ID|s||/content/@id
+text.mms_version_id=s|Version ID|s||/content/@revision-id
+text.mms_revision_id=s|Revision ID|s||/content/@version-id
+text.mms_received_date=s|Received Date|s||/content/article/metadata/processing-metadata/@processing-date
+text.mms_content_date=s|Content Date|s||/content/article/metadata/document-metadata/@publisher-release-date
+text.mms_orig_rep_date=s|Original Date|s||/content/article/metadata/document-metadata/@creation-date
+text.mms_title=s|Title|r||/content/article/title
+text.mms_content_provider=s|Provider|r||/content/article/metadata/publication-metadata/publisher-info/@publication-name
+text.mms_mime_type=s|MIME Type|s||/content/article/metadata/structural-metadata/@mime-type
+text.mms_editable=s|Editable|s||/content/article/metadata/processing-metadata/@editable
+text.mms_price=s|Price|wf||/content/article/metadata/document-metadata/@price
+text.mms_author=s|Author|wf||/content/article/core/byline
+text.mms_copyright=s|Copy Right|wf||/content/article/core/copyright
+text.mms_linktext=s|Link Text|we||/content/article/core/headline/main-headline
+text.mms_summary=s|Summary|we||/content/article/core/summary
+text.mms_sms=s|SMS|we||/content/article/core/sms
+text.mms_wordcount=s|Word Count|s||/content/article/metadata/structural-metadata/@word-count
+text.encode=s|Encoding|s||
+
+#media metadata
+media.bmms_content_id=s|Content ID|s||/media-instance/@id
+media.bmms_type=s|Media Type|s||/media-instance/@type
+media.bmms_alignment=s|Alignment|we||/media-instance/@alignment
+media.bmms_title=s|Title|we||/media-instance/media-reference/@alternate-text
+media.bmms_thumb_id=s|Thumb ID|s||/media-instance/thumbnail-reference/@content-id
+media.bmms_thumb_title=s|Thumb Title|s||/media-instance/thumbnail-reference/@alternate-text
+media.bmms_thumb_width=s|Thumb Width|s||/media-instance/thumbnail-reference/@width
+media.bmms_thumb_height=s|Thumb Height|s||/media-instance/thumbnail-reference/@height
+media.bmms_reference_id=s|Ref ID|s||/media-instance/media-reference/@content-id
+media.bmms_dur_secs=s|Duration|s||/media-instance/media-reference/@duration
+media.bmms_size=s|Size|s||/media-instance/media-reference/@size
+media.bmms_ext=s|Format|s||/media-instance/media-reference/@format
+media.bmms_content_width=s|Content Width|s||/media-instance/media-reference/@width
+media.bmms_content_height=s|Content Height|s||/media-instance/media-reference/@height
+media.bmms_player=s|Player|wf||/media-instance/media-reference/@value
+media.bmms_caption=s|Caption|we||/media-instance/media-caption
+media.bmms_provider=s|Provider|s||/media-instance/media-credit
+media.bmms_distributor=s|Distributor|wf||/media-instance/media-distributor
+media.bmms_author=s|Author|s||/media-instance/media-byline
+media.bmms_transcript=s|Transcript|wf||/media-instance/media-transcript

@@ -1,0 +1,31 @@
+﻿/*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~/
+
+ GTF release note
+
+/*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*/
+
+-----------------------------------------------------------------------------------------------------------
+       version 1.0   r15
+-----------------------------------------------------------------------------------------------------------
+1.Create a forceChange button at the top right corner of the "Project Application Form" page.By clicking 
+  this button,it shall instantly close the project, and remove the project schema/data from ongoing project
+  tables in database. Authorized this privilege ,users need to select the "forceClose" operation in 
+  AccountManager. 
+-----------------------------------------------------------------------------------------------------------
+       version 1.1   r17-r23/r24/r25
+-----------------------------------------------------------------------------------------------------------
+1.Create a SystemData privilege,with this privilege users can modify  all the process dates** of stages 
+  in Project manager .
+2.Organize the forceClose button function in the "Project Application Form"  page to the SystemData privilege.
+        
+3.SystemData privilege can be assigned by including a user to SystemDataManager group  which selected 
+  the "SystemData" operations in AccountManager. 
+    
+
+**notes:Process dates of stages include "Linear. Date", "Electroporation date", "Picking Colony date",
+  "Freezing MP date","Colony DNA Due date","Southern analysis date" and "Thawing Pos. Clone Date". 
+-----------------------------------------------------------------------------------------------------------
+       version 1.2  r 
+-----------------------------------------------------------------------------------------------------------
+1. Display version information at login page.
+2. Attach release notes to the web application package.    

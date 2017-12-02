@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/projectManager/web/PDA
+END
+PDAProjectNotesFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/projectManager/web/PDA/PDAProjectNotesFormBuilder.java
+END
+StageNotesBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/projectManager/web/PDA/StageNotesBean.java
+END
+StageNotesFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/projectManager/web/PDA/StageNotesFormBuilder.java
+END
+PDAProjectNotesBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/projectManager/web/PDA/PDAProjectNotesBean.java
+END
+ActiveProjectsTreeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/projectManager/web/PDA/ActiveProjectsTreeBean.java
+END
+ActiveProjectsTreeBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/projectManager/web/PDA/ActiveProjectsTreeBuilder.java
+END

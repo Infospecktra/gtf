@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/tagLib/webForm
+END
+ListTag.template
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/tagLib/webForm/ListTag.template
+END
+SelectorTag.template
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/tagLib/webForm/SelectorTag.template
+END
+FormTag.template
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/tagLib/webForm/FormTag.template
+END
+WebControlTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/tagLib/webForm/WebControlTag.java
+END
+WebFormTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/tagLib/webForm/WebFormTag.java
+END

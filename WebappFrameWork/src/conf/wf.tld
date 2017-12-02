@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+  "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<taglib>
+
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>WebFrameworkTags</shortname>
+  <uri></uri>
+  <info>
+    This tag library contains functionality specific to the Web Framework.
+  </info>
+
+  <tag>
+    <name>property</name>
+    <tagclass>org.yang.web.tagLib.system.PropertiesTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+    	read properties from PassportBean in Session
+    </info>
+    <attribute>
+      <name>key</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>type</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+
+  <tag>
+    <name>ServiceBar</name>
+    <tagclass>org.yang.web.tagLib.serviceBar.ServiceBarTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+    	for desplaying current service status and provide service access.
+    </info>
+    <attribute>
+      <name>key</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>type</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+
+  <tag>
+    <name>ServiceTree</name>
+    <tagclass>org.yang.web.tagLib.serviceTree.UITreeTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+    	for desplaying current service status and provide service access.
+    </info>
+    <attribute>
+      <name>beanID</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>codeBase</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>actionLink</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+
+  <tag>
+    <name>WebControl</name>
+    <tagclass>org.yang.web.tagLib.webForm.WebControlTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+    	for desplaying current service status and provide service access.
+    </info>
+    <attribute>
+      <name>beanID</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>controlBuilderName</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+
+</taglib>

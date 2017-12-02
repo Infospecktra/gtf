@@ -1,0 +1,26 @@
+body { scrollbar-arrow-color: #111111; scrollbar-highlight-color: #DDDDDD; scrollbar-face-color: #DDDDDD; scrollbar-shadow-color: #DDDDDD; scrollbar-track-color: #E9E9E9; scrollbar-3dlight-color: #EFEFEF; scrollbar-darkshadow-color: #666666 }
+a { text-decoration: none; color:#0066CC }
+a:hover { text-decoration: underline }
+
+td { font-family: Arial,Helvetica,sans-serif; font-size: 10pt }
+
+td.bigger { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 9pt }
+td.smaller { font-family: Arial,Helvetica,sans-serif; font-size: 9pt }
+td.smallest { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt }
+td.text { font-family: Courier New,Arial,Helvetica,sans-serif; font-size: 9pt }
+td.title { font-family: Arial,Helvetica,sans-serif; font-size: 12pt; font-weight: bold  }
+
+p { font-family: Arial,Helvetica,sans-serif; font-size: 10pt }
+p.subtitle { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: bold }
+
+h1,h2,h3,h4,h5 { font-family: Arial,Helvetica,sans-serif }
+
+input { font-family: Courier New,Arial,Helvetica,sans-serif; font-size: 9pt }
+input.actionbtn { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt; color: #FFFFFF; background-color:#1D459D }
+input.removebtn { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt; color: #FFFFFF; background-color:#333333 }
+input.helpbtn { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt; color: #FFFFFF; background-color:#006633 }
+select { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt }
+
+text { font-family: Courier New,Verdana,Arial,Helvetica,sans-serif; font-size: 9pt }
+
+

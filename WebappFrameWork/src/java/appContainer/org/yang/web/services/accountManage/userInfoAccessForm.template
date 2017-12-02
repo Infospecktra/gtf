@@ -1,0 +1,114 @@
+              <!----- User Name ----->
+              <tr>
+                <td class="bigger" noWrap>Username</td>
+                <td class="bigger" noWrap><b><font color="#cc0000">MARIO </font></b><input id="Hidden2" type="hidden" value="MARIO" name="id">
+                </td>
+              </tr>
+              <!----- Password ----->
+              <tr>
+                <td class="bigger" noWrap>Password
+                </td>
+                <td noWrap><input id="Password1" type="password" maxLength="20" size="20" value="**********************" name="password">
+                  *
+                </td>
+              </tr>
+              <!----- Confirm password ----->
+              <tr>
+                <td class="bigger" noWrap>Confirm password &nbsp;&nbsp;
+                </td>
+                <td noWrap><input id="Password2" onblur="checkPass('user_form')" type="password" maxLength="20" size="20" value="**********************" name="confirmpass">
+                  *
+                </td>
+              </tr>
+              <!----- First name ----->
+              <tr>
+                <td class="bigger" noWrap>First name
+                </td>
+                <td noWrap><input id="Text1" type="text" size="20" value="Mario" name="firstname"> *
+                </td>
+              </tr>
+              <!----- Last name ----->
+              <tr>
+                <td class="bigger" noWrap>Last name
+                </td>
+                <td noWrap><input id="Text2" type="text" size="20" value="F" name="lastname"> *
+                </td>
+              </tr>
+              <!----- Address 1 ----->
+              <tr>
+                <td class="bigger" noWrap>Address 1</td>
+                <td noWrap><input id="Text3" type="text" size="30" name="address1">
+                </td>
+              </tr>
+              <!----- Address 2 ----->
+              <tr>
+                <td class="bigger" noWrap>Address 2</td>
+                <td noWrap><input id="Text4" type="text" size="30" name="address2">
+                </td>
+              </tr>
+              <!----- City ----->
+              <tr>
+                <td class="bigger" noWrap>City</td>
+                <td noWrap><input id="Text5" type="text" size="25" name="city">
+                </td>
+              </tr>
+              <!----- State ----->
+              <tr>
+                <td class="bigger" noWrap>State</td>
+                <td noWrap><input id="Text6" type="text" size="25" name="usstate">
+                </td>
+              </tr>
+              <!----- Postal code ----->
+              <tr>
+                <td class="bigger" noWrap>Postal code</td>
+                <td noWrap><input id="Text7" type="text" maxLength="10" size="10" name="zipcode">
+                </td>
+              </tr>
+              <!----- Country ----->
+              <tr>
+                <td class="bigger" noWrap>Country</td>
+                <td noWrap><input id="Text8" type="text" size="25" name="country">
+                </td>
+              </tr>
+              <!----- Telephone number ----->
+              <tr>
+                <td class="bigger" noWrap>Telephone number</td>
+                <td noWrap><input id="Text9" type="text" size="15" name="telephonenumber">
+                </td>
+              </tr>
+              <!----- Fax number ----->
+              <tr>
+                <td class="bigger" noWrap>Fax number</td>
+                <td noWrap><input id="Text10" type="text" size="15" name="faxnumber">
+                </td>
+              </tr>
+              <!----- Mobile number ----->
+              <tr>
+                <td class="bigger" noWrap>Mobile number</td>
+                <td noWrap><input id="Text11" type="text" size="15" name="mobilenumber">
+                </td>
+              </tr>
+              <!----- Email address ----->
+              <tr>
+                <td class="bigger" noWrap>Email address
+                </td>
+                <td noWrap><input id="Text12" type="text" size="25" value="mf@pinnacor.com" name="email">
+                  *
+                </td>
+              </tr>
+              <!----- Language set ----->
+              <tr>
+                <td class="bigger" noWrap>Language set
+                </td>
+                <td noWrap><select id="Select1" size="1" name="language">
+                    <option value="English" selected>English</option>
+                  </select>
+                  *
+                </td>
+              </tr>
+              <!----- Description ----->
+              <tr>
+                <td class="bigger" noWrap>Description</td>
+                <td class="text" noWrap><textarea id="Textarea1" name="description" rows="3" wrap="VIRTUAL" cols="30"></textarea>
+                </td>
+              </tr>

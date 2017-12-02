@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO
+END
+GenericStorableObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/GenericStorableObject.java
+END
+DBExcutionDirector.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/DBExcutionDirector.java
+END
+GenericDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/GenericDAO.java
+END
+InsertDirector.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/InsertDirector.java
+END
+TestStorableObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/TestStorableObject.java
+END
+SQLQueryIF.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/SQLQueryIF.java
+END
+SerialSQLQueryIF.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/SerialSQLQueryIF.java
+END
+StorableList.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/StorableList.java
+END
+StorableDataContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/StorableDataContainer.java
+END
+BaseInlineQuerySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/BaseInlineQuerySet.java
+END
+LoadDirector.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/LoadDirector.java
+END
+Storable.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/Storable.java
+END
+UpdateDirector.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/UpdateDirector.java
+END
+GenericQuerySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/GenericQuerySet.java
+END
+QuerySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/QuerySet.java
+END
+CheckExistDirector.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/CheckExistDirector.java
+END
+GenericDBExcutionDirector.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/GenericDBExcutionDirector.java
+END
+DeleteDirector.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/genericDAO/DeleteDirector.java
+END

@@ -1,0 +1,99 @@
+        <tr>
+          <td class      = "bigger" 
+              background = "/wf/default/images/bar_bk.gif" 
+              bgColor    = "#000066" 
+              colSpan    = "2">
+              <font color="#ffffff"><b><a name="basic"></a>Basic Information</b></font>
+          </td>
+        </tr>
+        
+        
+        <tr>
+          <td>
+            <table id="Table5" borderColor="#cccccc" cellSpacing="0" borderColorDark="#ffffff" cellPadding="3" width="100%" align="center" bgColor="#eaeaea" borderColorLight="#cccccc" border="1">
+              <!----- User Name ----->
+              <tr>
+                <td class="bigger" noWrap>Username</td>
+                <td class="bigger" noWrap>
+                  <b><font color="#cc0000">MARIO </font></b>
+                  <input id    = "Hidden2" 
+                         type  = "hidden" 
+                         value = "MARIO" 
+                         name = "id">
+                </td>
+              </tr>
+              <!----- Password ----->
+              <tr>
+                <td class="bigger" noWrap>Password</td>
+                <td noWrap>
+                  <input id        = "Password1" 
+                         type      = "password" 
+                         maxLength = "20" 
+                         size      = "20" 
+                         value     = "**********************" 
+                         name      = "password">
+                  *
+                </td>
+              </tr>
+              <!----- Confirm password ----->
+              <tr>
+                <td class="bigger" noWrap>Confirm password &nbsp;&nbsp;</td>
+                <td noWrap>
+                  <input id        = "Password2" 
+                         onblur    = "checkPass('user_form')" 
+                         type      = "password" 
+                         maxLength = "20" 
+                         size      = "20" 
+                         value     = "**********************" 
+                         name      = "confirmpass">
+                  *
+                </td>
+              </tr>
+              <!----- Language set ----->
+              <tr>
+                <td class="bigger" noWrap>Language set</td>
+                <td noWrap>
+                  <select id="Select1" size="1" name="language">
+                    <option value="English" selected>English</option>
+                  </select>
+                  *
+                </td>
+              </tr>
+              <!----- Description ----->
+              <tr>
+                <td class="bigger" noWrap>Description</td>
+                <td class="text" noWrap>
+                  <textarea id   = "Textarea1" 
+                            name = "description" 
+                            rows = "3" 
+                            wrap = "VIRTUAL" 
+                            cols = "30">
+                  </textarea>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td height="29">
+            <table id="Table6" cellSpacing="0" cellPadding="0" width="100%" border="0">
+              <tr>
+                <td>
+                  <b>
+                    <A href="#top"><IMG alt="Go to top of the page" src="/wf/default/images/top.gif" border="0"></A>
+                  </b>
+                </td>
+                <td vAlign="top" align="right">
+                  <A onmouseover="MM_swapImage('img_save','','/wf/default/images/English/btn_save_on.gif',1)" onmouseout="MM_swapImgRestore()" href="javascript:validateForm('user_form','update',reqA)">
+                    <IMG alt="Update user information" src="/wf/default/images/English/btn_save.gif" border="0" name="img_save">
+                  </A>
+                  &nbsp; 
+                  <A onmouseover="MM_swapImage('img_help','','/wf/default/images/English/btn_help_on.gif',1)" onmouseout="MM_swapImgRestore()" href="javascript:top.topFrame.openSWHelpWindow('/wf/default/help/English/help.jsp?right=admin_user.htm#info')">
+                    <IMG alt="Help" src="/wf/default/images/English/btn_help.gif" border="0" name="img_help">
+                  </A>
+                  &nbsp;
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>

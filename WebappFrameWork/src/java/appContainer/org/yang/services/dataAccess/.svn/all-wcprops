@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess
+END
+TypeIDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/TypeIDAOImpl.java
+END
+PhotoDataDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/PhotoDataDisplayer.java
+END
+RadioDataDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/RadioDataDisplayer.java
+END
+CreatedTableNameArchives.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/CreatedTableNameArchives.java
+END
+NarrowStringDataDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/NarrowStringDataDisplayer.java
+END
+DataDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DataDescriptor.java
+END
+Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/Data.java
+END
+DataProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DataProcessor.java
+END
+DateTimeDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DateTimeDisplayer.java
+END
+DropdownDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DropdownDisplayer.java
+END
+SelectableDataDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/SelectableDataDisplayer.java
+END
+DataContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DataContainer.java
+END
+DefaultDataProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DefaultDataProcessor.java
+END
+TableDataProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/TableDataProcessor.java
+END
+TableDataSOBProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/TableDataSOBProcessor.java
+END
+NOPDataProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/NOPDataProcessor.java
+END
+DataGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DataGroup.java
+END
+DataDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DataDisplayer.java
+END
+PickFirstDataProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/PickFirstDataProcessor.java
+END
+TextAreaDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/TextAreaDisplayer.java
+END
+TypeIDataDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/TypeIDataDAOImpl.java
+END
+DefaultDataDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DefaultDataDisplayer.java
+END
+CountingIntDataProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/CountingIntDataProcessor.java
+END
+DataUnavailableException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DataUnavailableException.java
+END
+DataDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/DataDAO.java
+END
+TableDataDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/dataAccess/TableDataDisplayer.java
+END

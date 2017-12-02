@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/servicemgr
+END
+ServiceDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/servicemgr/ServiceDescriptor.java
+END
+Operation.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/servicemgr/Operation.java
+END
+Service.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/servicemgr/Service.java
+END
+ServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/servicemgr/ServiceWrapper.java
+END
+DefaultServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/servicemgr/DefaultServiceWrapper.java
+END
+ServiceWrapperProxyc.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/servicemgr/ServiceWrapperProxyc.java
+END
+Area.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/servicemgr/Area.java
+END
+ServiceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/servicemgr/ServiceManager.java
+END

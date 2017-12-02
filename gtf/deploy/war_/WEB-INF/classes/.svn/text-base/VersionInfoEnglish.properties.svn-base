@@ -1,0 +1,21 @@
+# product key-value
+product=Actrellis Integration Server
+version=Version 1.2b (Build 2.2) 14:07 April 30, 2003
+copyright=Copyright(C) 1999-2002 Screamingmedia Inc.
+licenseto1=Screamingmedia Inc.
+licenseto2=
+
+
+# page messages
+pm.page.title=About Actrellis
+pm.product.info=Product Infomation:
+pm.license.info=This product is licensed to:
+pm.system.info=System information:
+
+pm.jvm.version=JVM version:
+pm.jvm.vendor=JVM vendor:
+pm.os.name=OS name:
+pm.os.version=OS version:
+pm.os.arch=OS architecture:
+pm.total.memory=Total memory:
+pm.free.memory=Free memory:

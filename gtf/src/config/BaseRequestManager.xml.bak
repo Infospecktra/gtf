@@ -1,0 +1,565 @@
+<!-- Action Mappings for the lab service -->
+
+<mappings>
+
+   <!-- **************** -->
+   <!-- *    Login     * -->
+   <!-- **************** -->
+
+   <!-- prepare login -->
+   <uri path    = "/login.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "passport"/>
+      <property name = "bean-class"      value = "org.yang.web.applicationContainer.PassportBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/login/login.jsp"/>
+   </uri>
+
+   <!-- prepare login -->
+   <uri path    = "/loginPDA.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "passport"/>
+      <property name = "bean-class"      value = "org.yang.web.applicationContainer.PassportBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/login/loginPDA.jsp"/>
+   </uri>
+
+   <!-- process login and switch between services -->
+   <uri path    = "/main.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"             value = "passport"/>
+      <property name = "bean-class"            value = "org.yang.web.applicationContainer.PassportBean"/>
+      <property name = "bean-scope"            value = "SESSION"/>
+      <property name = "default-forward"       value = "/default/maindesk/main.jsp"/>
+      <property name = "login-fail-forward"    value = "/login.wf"/>
+      <property name = "MainDesk"              value = "/default/maindesk/main.jsp"/>
+      <property name = "EngineersDesk"         value = "/default/engineer/engineer.jsp"/>
+      <property name = "AccountManager"        value = "/default/admindesk/accounts.jsp"/>
+      <property name = "ScheduleManager"       value = "/default/scheduleService/scheduleService.jsp"/>
+      <property name = "Scheduler"             value = "/default/tglScheduler/scheduler.jsp"/>
+      <property name = "ProjectManager"        value = "/default/projects/projects.jsp"/>
+      <property name = "ReportManager"         value = "/default/reports/reports.jsp"/>
+      <property name = "MessageManager"        value = "/default/messageService/messageService.jsp"/>
+      <property name = "InventoryManager"      value = "/default/inventoryService/inventoryService.jsp"/>
+      <property name = "ProjectViewerManager"  value = "/default/projectViewer/projectViewer.jsp"/>
+   </uri>
+   
+   <!-- process login and switch between services -->
+   <uri path    = "/mainPDA.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"          value = "passport"/>
+      <property name = "bean-class"         value = "org.yang.web.applicationContainer.PassportBean"/>
+      <property name = "bean-scope"         value = "SESSION"/>
+      <property name = "default-forward"    value = "/default/projects/projectsPDA.jsp"/>
+      <property name = "login-fail-forward" value = "/loginPDA.wf"/>
+   </uri>
+   
+   <!-- process load and update userContact information -->
+   <uri path    = "/userContact.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "userContact"/>
+      <property name = "bean-class"      value = "org.yang.web.services.serviceManager.UserInformationBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/maindesk/userContact.jsp"/>
+      <property name = "fail-forward"    value = "/default/maindesk/userContact.jsp"/>
+   </uri>
+   
+   <!-- ************************** -->
+   <!-- *    Engineer's Desk     * -->
+   <!-- ************************** -->
+    
+   <!-- display navigation tree -->
+   <uri path    = "/domainTree.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "domainTree"/>
+      <property name = "bean-class"      value = "org.yang.web.services.domainManage.DomainTreeBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/engineer/domainTree.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/engineer/domainTree.jsp"/>
+   </uri>
+   
+   <!-- display navigation tree -->
+   <uri path    = "/domain.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "domainBean"/>
+      <property name = "bean-class"      value = "org.yang.web.services.domainManage.DomainInformationBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/engineer/domainInformation.jsp"/>
+      <property name = "reload-forward"  value = "/default/engineer/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/engineer/domainInformation.jsp"/>
+   </uri>
+   
+   <!-- ***************************** -->
+   <!-- *    User Administrator     * -->
+   <!-- ***************************** -->
+    
+   <!-- display navigation tree -->
+   <uri path    = "/accountTree.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "accountTree"/>
+      <property name = "bean-class"      value = "org.yang.web.services.accountManage.AccountManagerBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/admindesk/accountTree.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/admindesk/accountTree.jsp"/>
+   </uri>
+    
+   <!-- display group table -->
+   <uri path    = "/group.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "groupBean"/>
+      <property name = "bean-class"      value = "org.yang.web.services.accountManage.GroupBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/admindesk/grouptable.jsp"/>
+      <property name = "reload-forward"  value = "/default/admindesk/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/admindesk/grouptable.jsp"/>
+   </uri>
+
+   <!-- display user table -->
+   <uri path    = "/user.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "userBean"/>
+      <property name = "bean-class"      value = "org.yang.web.services.accountManage.UserBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/admindesk/usertable.jsp"/>
+      <property name = "reload-forward"  value = "/default/admindesk/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/admindesk/usertable.jsp"/>
+   </uri>
+   
+   <!-- display service table -->
+   <uri path    = "/service.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "serviceBean"/>
+      <property name = "bean-class"      value = "org.yang.web.services.accountManage.ServiceBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/admindesk/servicetable.jsp"/>
+      <property name = "alt-forward"     value = "/group.wf"/>
+      <property name = "fail-forward" 	 value = "/default/admindesk/servicetable.jsp"/>
+   </uri>
+
+   <uri path    = "/e_user.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "e_userForm"/>
+      <property name = "default-forward" value = "/default/engineerdesk/e_usertable.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/engineerdesk/e_usertable.jsp"/>
+      <property name = "alt-forward" 	 value = "/default/share/top.jsp?go=login.wf"/>
+   </uri>
+
+   <uri path    = "/m_user.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "m_userForm"/>
+      <property name = "default-forward" value = "/default/maindesk/m_usertable.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/maindesk/m_usertable.jsp"/>
+   </uri>
+   
+   <!-- ***************************** -->
+   <!-- *      Schedule Service     * -->
+   <!-- ***************************** -->
+    
+   <!-- display navigation tree -->
+   <uri path    = "/projectList.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "projectList"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.scheduleManager.web.ScheduleServiceBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/scheduleService/scheduleServiceBodyLeft.jsp"/>
+      <property name = "reload-forward"  value = "/default/scheduleService/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/scheduleService/scheduleServiceBodyLeft.jsp"/>
+   </uri>
+
+   <!-- display project table -->
+   <uri path    = "/project.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "projectBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.scheduleManager.web.ProjectInformationBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/scheduleService/projectInformation.jsp"/>
+      <property name = "reload-forward"  value = "/default/scheduleService/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/scheduleService/projectInformation.jsp"/>
+   </uri>
+   
+   <!-- ***************************** -->
+   <!-- *         Scheduler         * -->
+   <!-- ***************************** -->
+    
+   <!-- display navigation tree -->
+   <uri path    = "/scheduledProjectList.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "scheduledProjectList"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.tglScheduler.web.ScheduledProjectListBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/tglScheduler/scheduledProjectList.jsp"/>
+      <property name = "reload-forward"  value = "/default/tglScheduler/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/tglScheduler/scheduledProjectList.jsp"/>
+   </uri>
+
+   <!-- create project table -->
+   <uri path    = "/projectInfo.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "projectInfo"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.tglScheduler.web.ProjectInformationBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/tglScheduler/projectInformation.jsp"/>
+      <property name = "reload-forward"  value = "/default/tglScheduler/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/tglScheduler/projectInformation.jsp"/>
+   </uri>
+
+   <!-- display navigation tree -->
+   <uri path    = "/calendar1.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "calendar1"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.tglScheduler.web.CalendarBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/tglScheduler/calendar.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/tglScheduler/calendar.jsp"/>
+   </uri>
+
+   <!-- display project table -->
+   <uri path    = "/timetable.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "timetable"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.tglScheduler.web.TimetableBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/tglScheduler/timetable.jsp"/>
+      <property name = "reload-forward"  value = "/default/tglScheduler/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/tglScheduler/timetable.jsp"/>
+   </uri>
+
+   <!-- display project table -->
+   <uri path    = "/scheduledTasks.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "scheduledTasks"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.tglScheduler.web.ScheduledTasksBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/tglScheduler/scheduledTasks.jsp"/>
+      <property name = "reload-forward"  value = "/default/tglScheduler/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/tglScheduler/scheduledTasks.jsp"/>
+   </uri>
+   
+   <!-- ***************************** -->
+   <!-- *      Project Manager      * -->
+   <!-- ***************************** -->
+    
+   <!-- display navigation tree -->
+   <uri path    = "/projectsTree.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "projectsTree"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.projectManager.web.ActiveProjectsTreeBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/projects/projectsTree.jsp"/>
+      <property name = "reload-forward"  value = "/default/projects/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/projects/projectsTree.jsp"/>
+   </uri>
+
+   <!-- display project table -->
+   <uri path    = "/projectNotes.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "projectNotesBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.projectManager.web.ProjectNotesBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "application"     value = "/default/projects/projectNotes.jsp"/>
+      <property name = "datasheet"       value = "/default/projects/dataSheet.jsp"/>
+      <property name = "projectsBody"    value = "/default/projects/projectsBody.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/projects/projectNotes.jsp"/>
+   </uri>
+   
+   <!-- display project table -->
+   <uri path    = "/stageNotes.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "stageNotesBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.projectManager.web.StageNotesBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/projects/projectsRight.jsp"/>    
+      <property name = "masterTable"     value = "/default/projects/masterTable.jsp"/>
+      <property name = "stageNotes"      value = "/default/projects/stageNotes.jsp"/>
+      <property name = "reload"          value = "/default/projects/reload.jsp"/>
+   </uri>
+   
+   <!-- Photo data Upload -->
+   <uri path    = "/photoUpload.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "photoUploadBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.projectManager.web.PhotoUploadBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "working-url"     value = "fileAccess.wf?filename="/>
+      <property name = "mimeType"        value = "image/jpeg"/>
+      <property name = "default-forward" value = "/default/projects/photoUpload.jsp"/>
+   </uri>
+   
+   <!-- display navigation tree -->
+   <uri path    = "/projectsTreePDA.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "projectsTreePDA"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.projectManager.web.PDA.ActiveProjectsTreeBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/projects/projectsTreePDA.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/projects/projectsTreePDA.jsp"/>
+   </uri>
+
+   <!-- display project table -->
+   <uri path    = "/stageNotesPDA.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "stageNotesBeanPDA"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.projectManager.web.PDA.StageNotesBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/projects/stageNotesPDA.jsp"/>
+   </uri>
+   
+   <!-- ***************************** -->
+   <!-- *      Reports Manager      * -->
+   <!-- ***************************** -->
+    
+   <!-- display navigation tree -->
+   <uri path    = "/reportsPanel.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "reportsPanel"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.reportManager.web.ReportsBrowsingPanelBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/reports/reportsPanel.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/reports/reportsPanel.jsp"/>
+   </uri>
+   
+   <!-- display report items list -->
+   <uri path    = "/reportsList.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "reportsList"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.reportManager.web.ReportsListBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/reports/masterTable.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/reports/masterTable.jsp"/>
+   </uri>
+   
+   <!-- display report items list -->
+   <uri path    = "/stageAccess.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "stageAccess"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.reportManager.web.ReportsStageAccessBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/reports/stageAccess.jsp"/>
+      <property name = "project-forward" value = "/default/reports/projectNotes.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/reports/stageAccess.jsp"/>
+   </uri>
+   
+   <!-- **************************** -->
+   <!-- *      Message Service     * -->
+   <!-- **************************** -->
+    
+   <!-- display navigation tree -->
+   <uri path    = "/messageList.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "messageList"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.messageManager.web.MessageListBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/messageService/messageList.jsp"/>
+      <property name = "reload-forward"  value = "/default/messageService/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/messageService/messageList.jsp"/>
+   </uri>
+
+   <!-- display project table -->
+   <uri path    = "/message.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "messageContent"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.messageManager.web.MessageContentBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/messageService/messageContent.jsp"/>
+      <property name = "reload-forward"  value = "/default/messageService/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/messageService/messageContent.jsp"/>
+   </uri>
+   
+   <!-- display navigation tree -->
+   <uri path    = "/calendar.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "calendar"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.messageManager.web.CalendarBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/messageService/calendar.jsp"/>
+      <property name = "reload-forward"  value = "/default/messageService/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/messageService/calendar.jsp"/>
+   </uri>
+
+   <!-- **************************** -->
+   <!-- *      Inventory Service     * -->
+   <!-- **************************** -->
+
+   <!-- display navigation tree -->
+   <uri path    = "/inventoryTree.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "inventoryTree"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.InventoryTreeBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/inventoryTree.jsp"/>
+      <property name = "reload-forward"  value = "/default/inventoryService/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/inventoryService/inventoryTree.jsp"/>
+   </uri>
+
+   <!-- display inventory spreadsheet table -->
+   <uri path    = "/inventory.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "inventoryBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.InventoryBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/inventoryServiceBodyRight.jsp"/>
+      <property name = "spreadSheet"     value = "/default/inventoryService/inventorySpreadSheet.jsp"/>
+      <property name = "changeService" value = "/default/inventoryService/inventoryServiceBody.jsp"/>
+      <property name = "reload"          value = "/default/inventoryService/reload.jsp"/>
+   </uri>
+
+   <!-- display inventory spreadsheet table -->
+   <uri path    = "/probeTest.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "probeTestBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.ProbeTestBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/inventoryServiceBodyRight.jsp"/>
+      <property name = "probeTestSpreadSheet"     value = "/default/inventoryService/probeTestSpreadSheet.jsp"/>
+      <property name = "reload"          value = "/default/inventoryService/reload.jsp"/>
+   </uri>
+
+    <!-- display probe case table -->
+   <uri path    = "/probeCase.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "probeCaseBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.ProbeCaseBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/probeCaseTable.jsp"/>
+      <property name = "removeCtrPanel"  value = "/default/inventoryService/removeProbeCaseButtonPanel.jsp"/>
+      <property name = "refreshRight"    value = "/default/inventoryService/inventoryServiceBodyRight.jsp"/>
+      <property name = "serviceBody"    value = "/default/inventoryService/inventoryServiceBody.jsp"/>
+      <property name = "reload"          value = "/default/inventoryService/reload.jsp"/>
+   </uri>
+
+
+    <!-- display record table -->
+   <uri path    = "/record.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "recordBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.RecordTableBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/recordTable.jsp"/>
+      <property name = "removeCtrPanel"  value = "/default/inventoryService/removeButtonPanel.jsp"/>
+      <property name = "refreshRight"    value = "/default/inventoryService/inventoryServiceBodyRight.jsp"/>
+      <property name = "reload"          value = "/default/inventoryService/reload.jsp"/>
+   </uri>
+
+   <!-- display karyotype master table -->
+   <uri path    = "/karyotypeMasterTable.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "karyotypeMasterTableBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.KaryotypeMasterTableBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/inventoryServiceBodyRight.jsp"/>
+      <property name = "karyotypeMasterTable"     value = "/default/inventoryService/karyotypeMasterTable.jsp"/>
+      <property name = "reload"          value = "/default/inventoryService/reload.jsp"/>
+   </uri>
+
+    <!-- display probe case table -->
+   <uri path    = "/karyotype.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "karyotypeBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.KaryotypeBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/karyotypeTable.jsp"/>
+      <property name = "removeCtrPanel"  value = "/default/inventoryService/removeKaryotypeButtonPanel.jsp"/>
+      <property name = "refreshRight"    value = "/default/inventoryService/inventoryServiceBodyRight.jsp"/>
+      <property name = "serviceBody"    value = "/default/inventoryService/inventoryServiceBody.jsp"/>
+      <property name = "reload"          value = "/default/inventoryService/reload.jsp"/>
+   </uri>
+
+   <!-- display calendar -->
+   <uri path    = "/inventoryCalendar.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "inventoryCalendar"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.CalendarBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/calendar.jsp"/>
+      <property name = "reload-forward"  value = "/default/inventoryService/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/inventoryService/calendar.jsp"/>
+   </uri>
+
+   <!-- display storage master table -->
+   <uri path    = "/storages.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "storageMasterBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.StorageMasterTableBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/inventoryServiceBodyRight.jsp"/>
+      <property name = "storageMasterTable"     value = "/default/inventoryService/storageMasterTable.jsp"/>
+      <property name = "serviceBodyLeft"        value = "/default/inventoryService/inventoryServiceBodyLeft.jsp"/>
+      <property name = "reload"          value = "/default/inventoryService/reload.jsp"/>
+   </uri>
+
+
+    <!-- display storage table -->
+   <uri path    = "/storage.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "storageBean"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.StorageBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/storageTable.jsp"/>
+      <property name = "inputDataFromFiles" value = "/default/inventoryService/inputDataFromFiles.jsp"/>
+      <property name = "removeCtrPanel"  value = "/default/inventoryService/removeStorageButtonPanel.jsp"/>
+      <property name = "refreshRight"    value = "/default/inventoryService/inventoryServiceBodyRight.jsp"/>
+      <property name = "refreshServiceBody"    value = "/default/inventoryService/inventoryServiceBody.jsp"/>
+      <property name = "reload"          value = "/default/inventoryService/reload.jsp"/>
+   </uri>
+
+   <!-- display calendar -->
+   <uri path    = "/storageSearch.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"       value = "searchControl"/>
+      <property name = "bean-class"      value = "org.yang.customized.gtf.services.inventoryManager.web.StorageSearchControlBean"/>
+      <property name = "bean-scope"      value = "SESSION"/>
+      <property name = "default-forward" value = "/default/inventoryService/searchControlPanel.jsp"/>
+      <property name = "reload-forward"  value = "/default/inventoryService/reload.jsp"/>
+      <property name = "fail-forward" 	 value = "/default/inventoryService/searchControlPanel.jsp"/>
+   </uri>
+
+   <!-- ***************** -->
+   <!-- * ProjectViewer * -->      
+   <!-- ***************** -->
+   
+   <!-- display project list menu -->
+   <uri path    = "/projectListMenu.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"              value = "projectListMenu"/>
+      <property name = "bean-class"             value = "org.yang.customized.gtf.services.projectViewer.web.ProjectListMenuBean"/>
+      <property name = "bean-scope"             value = "SESSION"/>
+      <property name = "default-forward"        value = "/default/projectViewer/projectViewerBody.jsp"/>
+      <property name = "leftBodyFrame"              value = "/default/projectViewer/projectViewerLeftBody.jsp"/>
+      <property name = "projectListMenu"        value = "/default/projectViewer/projectListMenu.jsp"/>
+      <property name = "master-forward"         value = "/default/projectViewer/projectViewerMasterTable.jsp"/>
+      <property name = "projectResults"         value = "/default/projectViewer/projectResultsMasterTable.jsp"/>
+      <property name = "reload"                 value = "/default/projectViewer/reload.jsp"/>
+   </uri>
+
+   <!-- display project mater table viewer-->
+   <uri path    = "/projectViewerMaster.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"          value = "projectMasterBean"/>
+      <property name = "bean-class"         value = "org.yang.customized.gtf.services.projectViewer.web.ProjectViewerMasterBean"/>
+      <property name = "bean-scope"         value = "SESSION"/>
+      <property name = "default-forward"    value = "/default/projectViewer/projectViewerMasterTable.jsp"/>
+      <property name = "projectResults"    value = "/default/projectViewer/projectResultsMasterTable.jsp"/>
+      <property name = "reload"             value = "/default/projectViewer/reload.jsp"/>
+   </uri>
+
+   <!-- display project mater table viewer-->
+   <uri path    = "/excelTransfer.wf"
+        handler = "org.yang.web.controller.GenericHandler">
+      <property name = "bean-name"          value = "excelTransferBean"/>
+      <property name = "bean-class"         value = "org.yang.customized.gtf.services.projectViewer.web.ExcelTransferBean"/>
+      <property name = "bean-scope"         value = "SESSION"/>
+      <property name = "default-forward"    value = "/default/projectViewer/downloadPage.jsp"/>
+      <property name = "reload"             value = "/default/projectViewer/reload.jsp"/>
+   </uri>
+  
+   <!-- ***************** -->
+   <!-- *    Utility    * -->
+   <!-- ***************** -->
+
+   <!-- File Upload -->
+   <uri path    = "/fileAccess.wf"
+        handler = "org.yang.web.fileUploader.FileAccess">
+      <property name = "working-directory" value = "/gel-pictures/"/>
+   </uri>
+
+</mappings>

@@ -1,0 +1,196 @@
+<serviceManager>
+
+   <!-- *********************** -->
+   <!-- *    User Manager     * -->
+   <!-- *********************** -->
+
+   <service name    = "MainDesk"
+            group   = "0"
+            wrapper = "org.yang.services.servicemgr.DefaultServiceWrapper"
+            class   = "org.yang.services.mainDesk.MainDeskManager"
+            type    = "user" >
+      <property name = "ServiceBar.Caption"        value = "Main Desk" />
+      <property name = "ServiceBar.Description"    value = "Access to all services" />
+      <property name = "ServiceBar.Icon.on"        value = "http://24.184.4.84:8888/wf/images/bar_main_on.gif" />
+      <property name = "ServiceBar.Icon.off"       value = "http://24.184.4.84:8888/wf/images/bar_main_off.gif" />
+      <property name = "ServiceBar.Icon.disable"   value = "http://24.184.4.84:8888/wf/images/bar_main_off.gif" />
+      <property name = "ServiceBar.Icon.Height"    value = "35" />
+      <property name = "ServiceBar.Icon.Width"     value = "30" />
+      <property name = "ServiceBar.Icon.link"      value = "/main.wf?actiontype=switchService&amp;currentServiceID=MainDesk" />
+      <property name = "ServiceProperty.Icon"      value = "http://24.184.4.84:8888/wf/images/small_ico_Main.gif" />
+      <property name = "ServiceProperty.Area.Icon" value = "" />
+      <property name = "ServiceTree.Icon"          value = "http://24.184.4.84:8888/wf/images/node_Nain.gif" />
+   </service>
+   
+   <service name    = "EngineersDesk"
+            group   = "1"
+            wrapper = "org.yang.services.servicemgr.DefaultServiceWrapper"
+            class   = "org.yang.services.mainDesk.MainDeskManager"
+            type    = "user" >
+      <property name = "ServiceBar.Caption"      value = "Engineer\'s Desk" />
+      <property name = "ServiceBar.Description"  value = "For technical support use only" />
+      <property name = "ServiceBar.Icon.on"      value = "http://24.184.4.84:8888/wf/images/bar_engineer.gif" />
+      <property name = "ServiceBar.Icon.off"     value = "http://24.184.4.84:8888/wf/images/bar_engineer.gif" />
+      <property name = "ServiceBar.Icon.disable" value = "http://24.184.4.84:8888/wf/images/bar_engineer_off.gif" />
+      <property name = "ServiceBar.Icon.Height"  value = "19" />
+      <property name = "ServiceBar.Icon.Width"   value = "20" />
+      <property name = "ServiceBar.Icon.link"    value = "/main.wf?actiontype=switchService&amp;currentServiceID=EngineerDesk" />
+      <property name = "ServiceProperty.Icon"    value = "http://24.184.4.84:8888/wf/images/small_ico_EngineersDesk.gif" />
+      <property name = "ServiceProperty.Area.Icon" value = "" />
+      <property name = "ServiceTree.Icon"        value = "http://24.184.4.84:8888/wf/images/node_EngineersDesk.gif" />
+   </service>
+   
+   <service name    = "AccountManager"
+            group   = "1"
+            wrapper = "org.yang.services.servicemgr.DefaultServiceWrapper"
+            class   = "org.yang.services.accountmgr.UserManager"
+            type    = "user" >
+      <property name = "DAOFactory.classname"
+                value = "org.yang.services.accountmgr.SimpleDAOFactory" />
+      <property name = "ServiceBar.Caption"
+                value = "Accounts" />
+      <property name = "ServiceBar.Description"
+                value = "Manage users and groups" />
+      <property name = "ServiceBar.Icon.on"
+                value = "http://24.184.4.84:8888/wf/images/bar_admin.gif" />
+      <property name = "ServiceBar.Icon.off"
+                value = "http://24.184.4.84:8888/wf/images/bar_admin.gif" />
+      <property name = "ServiceBar.Icon.disable"
+                value = "http://24.184.4.84:8888/wf/images/bar_admin_off.gif" />
+      <property name = "ServiceBar.Icon.Height"
+                value = "19" />
+      <property name = "ServiceBar.Icon.Width"
+                value = "20" />
+      <property name = "ServiceBar.Icon.link"
+                value = "/main.wf?actiontype=switchService&amp;currentServiceID=AccountManager" />
+      <property name = "ServiceFunction.CreateUser.text"
+                value = "Create User" />
+      <property name = "ServiceFunction.CreateUser.icon"
+                value = "http://24.184.4.84:8888/wf/images/stb_user.gif" />
+      <property name = "ServiceFunction.CreateUser.link"
+                value = "/user.wf?actiontype=clear" />      
+      <property name = "ServiceFunction.CreateGroup.text"
+                value = "Create Group" />
+      <property name = "ServiceFunction.CreateGroup.icon"
+                value = "http://24.184.4.84:8888/wf/images/stb_group.gif" />
+      <property name = "ServiceFunction.CreateGroup.link"
+                value = "/group.wf?actiontype=clear" />      
+      <property name = "ServiceProperty.Icon"
+                value = "http://24.184.4.84:8888/wf/images/small_ico_AccountManager.gif" />
+      <property name = "ServiceProperty.Area.Icon"
+                value = "" />
+      <property name = "ServiceTree.Icon"
+                value = "http://24.184.4.84:8888/wf/images/node_AccountManager.gif" />
+      <property name  = "ServiceTree.Icon.groups.open"
+                value = "http://24.184.4.84:8888/wf/images/group_open.gif" />
+      <property name  = "ServiceTree.Icon.groups.close"
+                value = "http://24.184.4.84:8888/wf/images/group_closed.gif" />
+      <property name  = "ServiceTree.Icon.group"
+                value = "http://24.184.4.84:8888/wf/images/groupnode.gif" />
+      <property name  = "ServiceTree.Icon.users.open"
+                value = "http://24.184.4.84:8888/wf/images/user_open.gif" />
+      <property name  = "ServiceTree.Icon.users.close"
+                value = "http://24.184.4.84:8888/wf/images/user_closed.gif" />
+      <property name  = "ServiceTree.Icon.user"
+                value = "http://24.184.4.84:8888/wf/images/usernode.gif" />
+      <property name  = "ServiceTree.Icon.services.open"
+                value = "http://24.184.4.84:8888/wf/images/serv_open.gif" />
+      <property name  = "ServiceTree.Icon.services.close"
+                value = "http://24.184.4.84:8888/wf/images/serv_closed.gif" />
+   </service>
+
+   <service name    = "ScheduleManager"
+            group   = "2"
+            wrapper = "org.yang.services.servicemgr.DefaultServiceWrapper"
+            class   = "org.yang.customized.gtf.services.scheduleManager.ScheduleManager"
+            type    = "user" >
+      <property name = "ServiceBar.Caption"      
+                value = "Schedule" />
+      <property name = "ServiceBar.Description"  
+                value = "Scheduling projects" />
+      <property name = "ServiceBar.Icon.on"
+                value = "http://24.184.4.84:8888/wf/images/gtf/bar_schedule.gif" />
+      <property name = "ServiceBar.Icon.off"
+                value = "http://24.184.4.84:8888/wf/images/gtf/bar_schedule.gif" />
+      <property name = "ServiceBar.Icon.disable"
+                value = "http://24.184.4.84:8888/wf/images/gtf/bar_schedule_off.gif" />
+      <property name = "ServiceBar.Icon.Height"
+                value = "19" />
+      <property name = "ServiceBar.Icon.Width"
+                value = "20" />
+      <property name = "ServiceBar.Icon.link"
+                value = "/main.wf?actiontype=switchService&amp;currentServiceID=ScheduleManager" />
+      <property name = "ServiceFunction.CreateProject.text"
+                value = "Create Project" />
+      <property name = "ServiceFunction.CreateProject.icon"
+                value = "http://24.184.4.84:8888/wf/images/gtf/function_createProject.gif" />
+      <property name = "ServiceFunction.CreateProject.link"
+                value = "/project.wf?actiontype=clear" />      
+      <property name = "ServiceProperty.Icon"
+                value = "http://24.184.4.84:8888/wf/images/gtf/small_ico_ScheduleManager.gif" />
+      <property name = "ServiceProperty.Area.Icon"
+                value = "http://24.184.4.84:8888/wf/images/gtf/serv_area.gif" />
+      <property name = "ServiceTree.Icon"
+                value = "http://24.184.4.84:8888/wf/images/gtf/node_ScheduleManager.gif" />
+   </service>
+
+   <service name    = "ProjectManager"
+            group   = "2"
+            wrapper = "org.yang.services.servicemgr.DefaultServiceWrapper"
+            class   = "org.yang.customized.gtf.services.projectManager.ProjectManager"
+            type    = "user" >
+      <property name  = "ServiceBar.Caption"
+                value = "Project" />
+      <property name  = "ServiceBar.Description"
+                value = "Managing project" />
+      <property name  = "ServiceBar.Icon.on"
+                value = "http://24.184.4.84:8888/wf/images/gtf/bar_project.gif" />
+      <property name  = "ServiceBar.Icon.off"
+                value = "http://24.184.4.84:8888/wf/images/gtf/bar_project.gif" />
+      <property name  = "ServiceBar.Icon.disable"
+                value = "http://24.184.4.84:8888/wf/images/gtf/bar_project_off.gif" />
+      <property name  = "ServiceBar.Icon.Height"
+                value = "19" />
+      <property name  = "ServiceBar.Icon.Width"
+                value = "20" />
+      <property name  = "ServiceBar.Icon.link"
+                value = "/main.wf?actiontype=switchService&amp;currentServiceID=ProjectManager" />
+      <property name  = "ServiceProperty.Icon"
+                value = "http://24.184.4.84:8888/wf/images/gtf/small_ico_ProjectManager.gif" />
+      <property name  = "ServiceProperty.Area.Icon"
+                value = "http://24.184.4.84:8888/wf/images/gtf/serv_area.gif" />
+      <property name  = "ServiceTree.Icon"
+                value = "http://24.184.4.84:8888/wf/images/gtf/node_ProjectManager.gif" />
+      <property name  = "ServiceTree.Icon.projects.open"
+                value = "http://24.184.4.84:8888/wf/images/gtf/folder_open.gif" />
+      <property name  = "ServiceTree.Icon.projects.close"
+                value = "http://24.184.4.84:8888/wf/images/gtf/folder_close.gif" />
+      <property name  = "ServiceTree.Icon.project"
+                value = "http://24.184.4.84:8888/wf/images/gtf/node_project.gif" />
+      <property name  = "ServiceTree.Icon.stages.open"
+                value = "http://24.184.4.84:8888/wf/images/gtf/folder_open.gif" />
+      <property name  = "ServiceTree.Icon.stages.close"
+                value = "http://24.184.4.84:8888/wf/images/gtf/folder_close.gif" />
+      <property name  = "ServiceTree.Icon.stage"
+                value = "http://24.184.4.84:8888/wf/images/gtf/node_stage.gif" />
+   </service>
+
+   <service name    = "ReportManager"
+            group   = "2"
+            wrapper = "org.yang.services.servicemgr.DefaultServiceWrapper"
+            class   = "org.yang.customized.gtf.services.reportManager.ReportManager"
+            type    = "user" >
+      <property name = "ServiceBar.Caption"        value = "Report" />
+      <property name = "ServiceBar.Description"    value = "Managing report" />
+      <property name = "ServiceBar.Icon.on"        value = "http://24.184.4.84:8888/wf/images/gtf/bar_report.gif" />
+      <property name = "ServiceBar.Icon.off"       value = "http://24.184.4.84:8888/wf/images/gtf/bar_report.gif" />
+      <property name = "ServiceBar.Icon.disable"   value = "http://24.184.4.84:8888/wf/images/gtf/bar_report_off.gif" />
+      <property name = "ServiceBar.Icon.Height"    value = "19" />
+      <property name = "ServiceBar.Icon.Width"     value = "20" />
+      <property name = "ServiceBar.Icon.link"      value = "/main.wf?actiontype=switchService&amp;currentServiceID=ReportManager" />
+      <property name = "ServiceProperty.Icon"      value = "http://24.184.4.84:8888/wf/images/gtf/small_ico_Reports.gif" />
+      <property name = "ServiceProperty.Area.Icon" value = "http://24.184.4.84:8888/wf/images/gtf/serv_area.gif" />
+      <property name = "ServiceTree.Icon"          value = "http://24.184.4.84:8888/wf/images/gtf/node_Reports.gif" />
+   </service>
+
+</serviceManager>

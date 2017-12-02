@@ -1,0 +1,87 @@
+        <tr bgcolor="#000066">
+          <td class="bigger" background="/wf/default/images/bar_bk.gif"><font color="#FFFFFF"><b><a name="extra"></a>Set 
+                Default Page</b></font></td>
+        </tr>
+        
+        
+        
+        
+        
+        <tr>
+          <td>
+            <!---userserviceinfo--->
+            <table border="1" cellspacing="0" cellpadding="3" bordercolorlight="#CCCCCC" bordercolor="#CCCCCC" bordercolordark="#FFFFFF" bgcolor="#EAEAEA" align="center" width="100%" ID="Table11">
+
+
+<!--   -->
+
+
+              <tr>
+                <td bgcolor="#CCCCCC"><input type="radio" name="serv" value="MainDesk" ID="Radio1"></td>
+                <td valign="top" nowrap class="bigger">
+                  <img src="/wf/default/images/small_ico_MainDesk.gif" align="absmiddle"> <b>Main 
+                    Desk</b></td>
+                <td nowrap class="smaller" width="100%">
+                  ---
+                </td>
+              </tr>
+              
+              
+<!--   -->
+
+
+              <tr>
+                <!--- 1st [td] --->
+                <td bgcolor="#CCCCCC"><input type="radio" name="serv" value="Reports" ID="Radio2"></td>
+                <td nowrap class="bigger">
+                  <img src="/wf/default/images/small_ico_Reports.gif" align="absmiddle"><b> siteware.Reports</b>
+                </td>
+                <td width="100%">
+                  <table border="0" cellspacing="0" cellpadding="0" ID="Table12">
+                    <tr>
+                      <td nowrap class="smaller"><img src="/wf/default/images/serv_report.gif" width="24" height="22" align="absmiddle">
+                        <font color="#666666">Content, User Log</font></td>
+                      <td nowrap class="smaller" align="right">&nbsp; <img src="/wf/default/images/unchecked.gif" align="absmiddle">Read 
+                        Only <img src="/wf/default/images/checked.gif" align="absmiddle">Purge Log
+                      </td>
+                    </tr>
+                    <tr>
+                      <td nowrap class="smaller"><img src="/wf/default/images/serv_report.gif" width="24" height="22" align="absmiddle">
+                        <font color="#666666">System Log</font></td>
+                      <td nowrap class="smaller" align="right">&nbsp; <img src="/wf/default/images/unchecked.gif" align="absmiddle">Read 
+                        Only <img src="/wf/default/images/checked.gif" align="absmiddle">Purge Log
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              
+              
+<!--   -->
+              
+              
+            </table>
+            <!---service info for the user end--->
+          </td>
+        </tr>
+
+
+
+
+
+
+        <tr align="right" valign="top">
+          <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" ID="Table16">
+              <tr valign="top">
+                <td class="smallest"><b><a href="#top"><img src="/wf/default/images/top.gif" border="0" alt="Go to top of the page"></a></b></td>
+                <td valign="top" align="right">
+                  <a href="javascript:validateForm('user_form','create',reqA)" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_create2','','/wf/default/images/English/btn_create_on.gif',1)">
+                    <img name="img_create2" src="/wf/default/images/English/btn_create.gif" border="0" alt="Create new user"></a>&nbsp;
+                  <a href="javascript:top.topFrame.openSWHelpWindow('/wf/default/help/English/help.jsp?right=admin_user.htm#service')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_help3','','/wf/default/images/English/btn_help_on.gif',1)">
+                    <img name="img_help3" src="/wf/default/images/English/btn_help.gif" border="0" alt="Help"></a>&nbsp;
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>

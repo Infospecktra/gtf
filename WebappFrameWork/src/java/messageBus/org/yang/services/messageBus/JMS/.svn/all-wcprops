@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS
+END
+TopicConnectionWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/TopicConnectionWrapper.java
+END
+ConnectionWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/ConnectionWrapper.java
+END
+JMSQueueMessageTransmitterImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSQueueMessageTransmitterImpl.java
+END
+JMSTopicAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSTopicAdaptor.java
+END
+JMSAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSAdaptor.java
+END
+JMSTopicMessageReceiverImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSTopicMessageReceiverImpl.java
+END
+QueueConnectionWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/QueueConnectionWrapper.java
+END
+JMSTrancieverFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSTrancieverFactoryImpl.java
+END
+JMSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSHelper.java
+END
+JMSQueueAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSQueueAdaptor.java
+END
+JMSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSTest.java
+END
+ConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/ConnectionManager.java
+END
+JMSQueueMessageReceiverImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSQueueMessageReceiverImpl.java
+END
+JMSTopicMessageTransmitterImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/messageBus/org/yang/services/messageBus/JMS/JMSTopicMessageTransmitterImpl.java
+END

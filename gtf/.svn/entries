@@ -1,0 +1,53 @@
+10
+
+dir
+34
+https://192.168.0.90:9443/svn/Infospecktra/trunk/gtf
+https://192.168.0.90:9443/svn/Infospecktra
+
+
+
+2013-07-05T19:16:49.578125Z
+26
+celina
+has-props
+has-prop-mods
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cd7c4564-3f4c-b54f-b218-d604ec4a49ca
+
+build
+dir
+
+classes
+dir
+
+deploy
+dir
+
+dist
+dir
+
+
+
+delete
+
+lib
+dir
+
+release
+dir
+
+src
+dir
+

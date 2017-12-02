@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/domainMgr
+END
+DomainFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/domainMgr/DomainFactory.java
+END
+DomainDataAccessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/domainMgr/DomainDataAccessException.java
+END
+DomainManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/domainMgr/DomainManager.java
+END
+Domain.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/services/domainMgr/Domain.java
+END

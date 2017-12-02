@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template
+END
+XMLHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/XMLHelper.java
+END
+SWDocumentParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/SWDocumentParser.java
+END
+DomExtractingHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/DomExtractingHandler.java
+END
+DomConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/DomConverter.java
+END
+XmlRWUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/XmlRWUtil.java
+END
+YangKeywordMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/YangKeywordMapper.java
+END
+XMLUtilException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/XMLUtilException.java
+END
+KeywordReplaceHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/KeywordReplaceHandler.java
+END
+DateTimeFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/DateTimeFormatter.java
+END
+Dom2XMLHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/Dom2XMLHandler.java
+END
+DomManipulater.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/DomManipulater.java
+END
+GHUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/GHUtility.java
+END
+DomManipulatingHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/DomManipulatingHandler.java
+END
+KeywordMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/KeywordMapper.java
+END
+MappingHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/MappingHandler.java
+END
+DeepCloneUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/DeepCloneUtil.java
+END
+XMLUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/util/org/yang/util/template/XMLUtil.java
+END

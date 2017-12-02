@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler
+END
+reload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/reload.jsp
+END
+scheduledTasks.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/scheduledTasks.jsp
+END
+timetable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/timetable.jsp
+END
+printableScheduledTasks.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/printableScheduledTasks.jsp
+END
+schedulerBodyLeft.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/schedulerBodyLeft.jsp
+END
+calendar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/calendar.jsp
+END
+projectInformation.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/projectInformation.jsp
+END
+schedulerBody.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/schedulerBody.jsp
+END
+scheduler.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/scheduler.jsp
+END
+blank.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/blank.html
+END
+scheduledProjectList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/jsp/scheduler/scheduledProjectList.jsp
+END

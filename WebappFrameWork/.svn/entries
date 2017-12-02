@@ -1,0 +1,49 @@
+10
+
+dir
+34
+https://192.168.0.90:9443/svn/Infospecktra/trunk/WebappFrameWork
+https://192.168.0.90:9443/svn/Infospecktra
+
+
+
+2013-06-13T18:40:25.957701Z
+6
+celina
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+cd7c4564-3f4c-b54f-b218-d604ec4a49ca
+
+build
+dir
+
+dist
+dir
+
+lib
+dir
+
+src
+dir
+
+thirdparty
+dir
+
+deploy
+dir
+
+classes
+dir
+

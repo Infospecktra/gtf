@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService
+END
+inventorySpreadSheet.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/inventorySpreadSheet.jsp
+END
+searchControlPanel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/searchControlPanel.jsp
+END
+recordTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/recordTable.jsp
+END
+storageMasterTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/storageMasterTable.jsp
+END
+inventoryServiceBodyRight.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/inventoryServiceBodyRight.jsp
+END
+inventoryServiceBody.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/inventoryServiceBody.jsp
+END
+removeProbeCaseButtonPanel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/removeProbeCaseButtonPanel.jsp
+END
+removeStorageButtonPanel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/removeStorageButtonPanel.jsp
+END
+probeTestSpreadSheet.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/probeTestSpreadSheet.jsp
+END
+karyotypeTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/karyotypeTable.jsp
+END
+inputDataFromFiles.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/inputDataFromFiles.jsp
+END
+printtableKaryotypeMasterTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/printtableKaryotypeMasterTable.jsp
+END
+introduction2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/introduction2.jsp
+END
+printtableProbeTestTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/printtableProbeTestTable.jsp
+END
+reload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/reload.jsp
+END
+inventoryServiceBodyLeft.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/inventoryServiceBodyLeft.jsp
+END
+calendar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/calendar.jsp
+END
+removeButtonPanel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/removeButtonPanel.jsp
+END
+printtablePronuclearInjectionTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/printtablePronuclearInjectionTable.jsp
+END
+karyotypeMasterTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/karyotypeMasterTable.jsp
+END
+probeCaseTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/probeCaseTable.jsp
+END
+storageTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/storageTable.jsp
+END
+printtableStorageMasterTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/printtableStorageMasterTable.jsp
+END
+inventoryTree.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/inventoryTree.jsp
+END
+inventoryService.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/inventoryService.jsp
+END
+introduction.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/introduction.jsp
+END
+removeKaryotypeButtonPanel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/deploy/war_/default/inventoryService/removeKaryotypeButtonPanel.jsp
+END

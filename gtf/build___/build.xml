@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+
+<!-- ====================================== -->
+<!--           gtf build file               -->
+<!-- ====================================== -->
+
+<project name="gtf" default="remote.deploy" basedir="..">
+
+  <!-- ==================================== -->
+  <!-- set global properties for this build -->
+  <!-- ==================================== -->
+  
+  <property name  ="wf"
+            value ="../WebAppFrameWork"/>
+  <property name  ="lib"
+            value ="${basedir}/lib"/>
+  <property name  ="thirdparty"
+            value ="../thirdparty"/>
+  <property name  ="src.java"
+            value ="${basedir}/src/java"/>
+  <property name  ="src.jsp"
+            value ="${basedir}/src/jsp"/>
+  <property name  ="src.extra"
+            value ="${basedir}/src/extra/"/>
+  <property name  ="src.config"
+            value ="${basedir}/src/config"/>
+  <property name  ="wf.lib"
+            value ="${wf}/lib"/>
+  <property name  ="wf.thirdparty"
+            value ="${wf}/thirdparty"/>
+  <property name  ="wf.src.jsp"
+            value ="${wf}/deploy/war/default"/>
+ <property name  ="classes"
+            value ="${basedir}/classes/"/>
+  <property name  ="war"
+            value ="${basedir}/deploy/war"/>
+  <property name  ="war.classes"
+            value ="${war}/WEB-INF/classes"/>
+  <property name  ="war.lib"
+            value ="${war}/WEB-INF/lib"/>
+  <property name  ="deploy"
+            value ="${basedir}/deploy/"/>
+  <property name  ="dist"
+            value ="${basedir}/dist"/>
+            
+  <!-- ================================== -->
+  <!-- set properties for create j2ee app -->
+  <!-- ================================== -->
+
+  <property name  ="war"
+            value ="${deploy}/war"/>
+  <property name  ="war.lib"
+            value ="${war}/WEB-INF/lib"/>
+            
+  <!-- ================================== -->
+  <!-- set properties for create j2ee app -->
+  <!-- ================================== -->
+
+  <property name  ="ear"
+            value ="${deploy}/ear"/>           
+
+  <!-- =============================== -->
+  <!-- set properties for distribution -->
+  <!-- =============================== -->
+
+  <property name  ="dist.ear"
+            value ="${dist}/ear"/>
+  <property name  ="dist.war"
+            value ="${dist}/war"/>
+  <property name  ="dist.jars"
+            value ="${dist}/jars"/>
+
+
+  <!-- =============================== -->
+  <!--           initialize            -->
+  <!-- =============================== -->
+
+  <target name="init">
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${lib}"/>
+	<delete includeemptydirs="true" failonerror="false" >
+      <fileset dir="${war}/default" includes="**/*"/>
+    </delete>
+	<delete includeemptydirs="true" failonerror="false">
+      <fileset dir="${war}/js" includes="**/*"/>
+    </delete>
+    <delete includeemptydirs="true" failonerror="false">
+      <fileset dir="${war.lib}" includes="**/*"/>
+    </delete>
+    <delete includeemptydirs="true" failonerror="false">
+      <fileset dir="${war.classes}" includes="**/*"/>
+    </delete>
+    <mkdir dir="${war}/default"/>
+    <mkdir dir="${war}/js"/>
+    <mkdir dir="${war.lib}"/>
+    <mkdir dir="${war.classes}"/>
+    <mkdir dir="${classes}"/>
+    <mkdir dir="${dist.ear}"/>
+    <mkdir dir="${dist.war}"/>
+    <mkdir dir="${dist.jars}"/>
+  </target>
+   
+  <!-- =========================== -->
+  <!--        build gtf            -->
+  <!-- =========================== -->
+
+  <target name="compile.gtf" depends="init">
+  <property name  ="src.java.gtf"
+            value ="${src.java}/gtf"/>
+  <property name  ="classes.gtf"
+            value ="${classes}/gtf"/>
+    <mkdir dir="${classes.gtf}"/>
+    <javac srcdir="${src.java.gtf}" destdir="${classes.gtf}">
+      <classpath>
+        <pathelement path="${thirdparty}"/>
+        <fileset dir="${thirdparty}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <fileset dir="${wf.thirdparty}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <fileset dir="${wf.lib}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+      </classpath>
+    </javac>
+    <jar jarfile="${war.lib}/gtf.jar"
+         basedir="${classes.gtf}"/>
+  </target>
+  
+  <!-- ============================== -->
+  <!--              Jsp               -->
+  <!-- ============================== -->
+
+  <target name="copy.jsp" 
+          depends="compile.gtf">
+    <copy todir="${war}/default">
+      <fileset dir="${src.jsp}"/>
+      <fileset dir="${wf}/src/jsp"/>
+      <fileset dir="${src.extra}"/>
+      <fileset dir="${wf}/src/extra"/>
+    </copy>
+    <copy todir="${war.classes}">
+      <fileset dir="${src.config}"/>
+    </copy>
+    <copy todir="${war}/js">
+      <fileset dir="${wf}/src/js"/>
+    </copy>
+    <copy todir="${war.lib}">
+      <fileset dir="${wf}/lib"/>
+      <fileset dir="${wf}/thirdparty"/>
+    </copy>
+    <copy file    = "${wf}/src/jsp/index.htm"
+          tofile  = "${war}/index.htm" />
+    <copy file    = "${basedir}/release/ReleaseNotes.txt"
+          tofile  = "${war}/ReleaseNotes.txt"/>
+    <copy file    = "${wf}/src/conf/web.xml" 
+          tofile  = "${war}/WEB-INF/web.xml"/>
+    <copy file    = "${wf}/src/conf/wf.tld" 
+          tofile  = "${war}/WEB-INF/wf.tld"/>
+  </target>
+
+  <!-- ============================== -->
+  <!--     Create web application     -->
+  <!-- ============================== -->
+
+  <target name="create.war" 
+          depends="copy.jsp">
+    <jar jarfile  = "${dist.war}/wf.war" 
+         basedir  = "${war}"/>
+  </target>
+  
+  <target name    = "remote.deploy" 
+          depends = "create.war">
+    <property name  ="remote1"
+              value ="c:\ApplicationServer\jboss-3.2.3\server\default\deploy"/>
+    <property name  ="remote2"
+              value ="c:\ApplicationServer\jboss-4.2.3.GA\server\default\deploy"/>
+    <property name  ="remote3"
+              value ="c:\ApplicationServer\jboss-5.1.0.GA\server\default\deploy"/>
+              
+    <copy file    = "${dist.war}/wf.war" 
+          tofile  = "${remote1}/wf.war"/>
+    <copy file    = "${dist.war}/wf.war" 
+          tofile  = "${remote2}/wf.war"/>
+    <copy file    = "${dist.war}/wf.war" 
+          tofile  = "${remote3}/wf.war"/>
+          
+  </target>
+
+</project>

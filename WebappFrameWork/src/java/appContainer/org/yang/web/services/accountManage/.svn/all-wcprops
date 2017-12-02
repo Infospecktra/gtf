@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage
+END
+AccountNavigationTreeBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/AccountNavigationTreeBuilder.java
+END
+UserBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/UserBean.java
+END
+ServiceBean.java_changed201111
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/ServiceBean.java_changed201111
+END
+UserInfoAccessFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/UserInfoAccessFormBuilder.java
+END
+ServiceAreaInfoBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/ServiceAreaInfoBuilder.java
+END
+AccountManagerBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/AccountManagerBean.java
+END
+GroupUserInfoBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/GroupUserInfoBuilder.java
+END
+UserGroupInfoBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/UserGroupInfoBuilder.java
+END
+DefaultServiceSetupFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/DefaultServiceSetupFormBuilder.java
+END
+AccountBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/AccountBean.java
+END
+GroupBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/GroupBean.java
+END
+ServiceConfigurationFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/ServiceConfigurationFormBuilder.java
+END
+GroupInfoAccessFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/GroupInfoAccessFormBuilder.java
+END
+ServiceBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/ServiceBean.java
+END
+userInfoAccessForm.template
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/userInfoAccessForm.template
+END
+AreaConfigurationFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/services/accountManage/AreaConfigurationFormBuilder.java
+END

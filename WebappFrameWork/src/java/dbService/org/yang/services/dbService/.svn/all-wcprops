@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/dbService/org/yang/services/dbService
+END
+RDBMSFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/dbService/org/yang/services/dbService/RDBMSFactory.java
+END
+ConnectionProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/dbService/org/yang/services/dbService/ConnectionProxy.java
+END
+IDGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/dbService/org/yang/services/dbService/IDGenerator.java
+END
+SimpleRDBMSImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/dbService/org/yang/services/dbService/SimpleRDBMSImpl.java
+END
+RDBMS.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/dbService/org/yang/services/dbService/RDBMS.java
+END
+DataAccessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/dbService/org/yang/services/dbService/DataAccessException.java
+END
+DBConnectionCount.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/dbService/org/yang/services/dbService/DBConnectionCount.java
+END

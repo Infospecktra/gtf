@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet
+END
+DataRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/DataRow.java
+END
+DataSheet.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/DataSheet.java
+END
+SelectableItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/SelectableItem.java
+END
+TextItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/TextItem.java
+END
+TextTypeItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/TextTypeItem.java
+END
+TextItem.java_original
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/TextItem.java_original
+END
+DataItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/DataItem.java
+END
+DataRowComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/DataRowComparator.java
+END
+AccessIcon.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/AccessIcon.java
+END
+SelectableItemWithoutForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/SelectableItemWithoutForm.java
+END
+SelectionListSheet.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/SelectionListSheet.java
+END
+DataSheetSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/DataSheetSet.java
+END
+NumericalItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/WebappFrameWork/src/java/appContainer/org/yang/web/view/controls/jsStyle/dataSheet/NumericalItem.java
+END

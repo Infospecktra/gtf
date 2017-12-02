@@ -1,0 +1,42 @@
+
+
+<object classid="CLSID:D45FD31B-5C6E-11D1-9EC1-00C04FD7081F" id="hkdownload" width="32" height="32">
+</object>
+
+<script>
+
+var MerlinID;
+var MerlinACS;
+hkdownload.Connected = true;
+MerlinLoaded = LoadLocalAgent(MerlinID, MerlinACS);
+Merlin = hkdownload.Characters.Character(MerlinID);
+Merlin.Show();
+Merlin.Play("Announce");
+Merlin.Play("Surprised");
+Merlin.Speak("Welcome to SITE Ware!!");
+Merlin.Speak("Site Ware team is lead by Al Ellmen and Brian McGuinty");
+Merlin.Speak("and members are Steven Yang, Lei Liu, Hsin Hsien Wu, Celina Yang");
+Merlin.Speak("Ava Liu, Yao Cheng, Hui Chang, Sejin Kim and");
+Merlin.Play("Surprised");
+Merlin.Speak("Jason Wang.");
+Merlin.Play("DoMagic2");
+Merlin.Play("GestureLeft");
+Merlin.Speak("There must be a lot fun stuff in here...");
+Merlin.Play("Pleased");
+Merlin.Think("I will like to try it out...");
+Merlin.Play("GestureDown");
+Merlin.Speak("Enjoy yourself!");
+Merlin.Play("Write");
+Merlin.Play("Pleased");
+Merlin.Play("restpose");
+
+Merlin.Play("Wave");
+
+Merlin.Hide();
+function LoadLocalAgent(CharID, CharACS) {
+	LoadReq = hkdownload.Characters.Load(CharID, CharACS);
+	return(true);
+}
+
+</script>
+

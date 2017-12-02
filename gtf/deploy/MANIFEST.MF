@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Class-Path: ./lib/Tidy.jar ./lib/javaxml2.jar 
+ ./lib/soap.jar ./lib/xalan.jar 
+ ./lib/ftpclient.jar ./lib/activation.jar 
+ ./lib/mail.jar ./lib/jce-jdk13-110.jar 
+ ./lib/jakarta-oro-2.0.3.jar ./lib/xerces.jar 
+ ./lib/NetComponents.jar ./lib/jakarta-oro-2.0.3.jar 
+ ./lib/resources.jar ./lib/DeprecatedNeuralUtil.jar 
+ ./lib/NeuralUtil.jar ./lib/jai_codec.jar 
+ ./lib/jai_core.jar ./lib/Keypoint.jar 
+ ./lib/tibjms.jar ./lib/tibjmsadmin.jar 
+ ./lib/tibjmsnaming.jar ./lib/fop.jar 
+ ./lib/avalon-framework-4.0.jar ./lib/logkit-1.0.jar 
+ ./lib/batik.jar

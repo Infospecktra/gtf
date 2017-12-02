@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/TypeIDAOs
+END
+TypeIProjectDAOImpl.java.bak
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/TypeIDAOs/TypeIProjectDAOImpl.java.bak
+END
+TypeIStageDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/TypeIDAOs/TypeIStageDAOImpl.java
+END
+TypeIProjectDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/TypeIDAOs/TypeIProjectDAOImpl.java
+END
+TypeITimetableDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/TypeIDAOs/TypeITimetableDAOImpl.java
+END
+TypeIDAOFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/TypeIDAOs/TypeIDAOFactoryImpl.java
+END
+TypeIScheduleDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/dataAccess/TypeIDAOs/TypeIScheduleDAOImpl.java
+END

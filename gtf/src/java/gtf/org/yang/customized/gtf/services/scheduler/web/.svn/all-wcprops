@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web
+END
+CalendarBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/CalendarBean.java
+END
+CalendarBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/CalendarBuilder.java
+END
+DayTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/DayTask.java
+END
+FutureTasks.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/FutureTasks.java
+END
+SchedulerBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/SchedulerBean.java
+END
+WeekSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/WeekSchedule.java
+END
+ScheduledProjectListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/ScheduledProjectListBean.java
+END
+DaySchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/DaySchedule.java
+END
+ScheduledProjectListBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/ScheduledProjectListBuilder.java
+END
+ScheduledTasksBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/ScheduledTasksBean.java
+END
+TimetableBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/TimetableBean.java
+END
+FutureTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/FutureTask.java
+END
+ScheduledTasksBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/ScheduledTasksBuilder.java
+END
+TimetableBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/scheduler/web/TimetableBuilder.java
+END

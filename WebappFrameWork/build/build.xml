@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+
+<!-- ======================================================================= -->
+<!-- SITEWare4 build file                                                    -->
+<!-- ======================================================================= -->
+
+<project name="SITEWare4" default="compile.appContainer" basedir="..">
+
+  <!-- ==================================== -->
+  <!-- set global properties for this build -->
+  <!-- ==================================== -->
+  
+  <property name  ="lib"
+            value ="${basedir}/lib"/>
+  <property name  ="thirdparty"
+            value ="../thirdparty/"/>
+  <property name  ="src"
+            value ="${basedir}/src"/>
+  <property name  ="classes"
+            value ="${basedir}/classes/"/>
+  <property name  ="deploy"
+            value ="${basedir}/deploy/"/>
+  <property name  ="dist"
+            value ="${basedir}/dist"/>
+            
+  <!-- ================================== -->
+  <!-- set properties for create j2ee app -->
+  <!-- ================================== -->
+
+  <property name  ="war"
+            value ="${deploy}/war"/>
+  <property name  ="war.lib"
+            value ="${war}/WEB-INF/lib"/>
+            
+  <!-- ================================== -->
+  <!-- set properties for create j2ee app -->
+  <!-- ================================== -->
+
+  <property name  ="ear"
+            value ="${deploy}/ear"/>           
+
+  <!-- =============================== -->
+  <!-- set properties for distribution -->
+  <!-- =============================== -->
+
+  <property name  ="dist.ear"
+            value ="${dist}/ear"/>
+  <property name  ="dist.war"
+            value ="${dist}/war"/>
+  <property name  ="dist.jars"
+            value ="${dist}/jars"/>
+
+
+  <!-- =============================== -->
+  <!--           initialize            -->
+  <!-- =============================== -->
+
+  <target name="init">
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${lib}"/>
+    <mkdir dir="${classes}"/>
+    <mkdir dir="${dist.ear}"/>
+    <mkdir dir="${dist.war}"/>
+    <mkdir dir="${dist.jars}"/>
+  </target>
+  
+  <!-- ====================== -->
+  <!--       Build util       -->
+  <!-- ====================== -->
+
+  <target name="compile.util" depends="init">
+    <property name  ="src.util"
+              value ="${src}/java/util"/>
+    <property name  ="classes.util"
+              value ="${classes}/util"/>
+    <mkdir dir="${classes.util}"/>
+    <javac srcdir="${src.util}" destdir="${classes.util}">
+      <classpath>
+        <pathelement path="${thirdparty}"/>
+        <fileset dir="${thirdparty}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <pathelement path="${lib}"/>
+        <fileset dir="${lib}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <pathelement location="classes"/>
+      </classpath>
+    </javac>
+    <jar jarfile="${lib}/util.jar"
+         basedir="${classes.util}"/>
+  </target>
+  
+  <!-- ============================ -->
+  <!--       Build messageBus       -->
+  <!-- ============================ -->
+
+  <target name="compile.messageBus" depends="compile.util">
+    <property name  ="src.messageBus"
+              value ="${src}/java/messageBus"/>
+    <property name  ="classes.messageBus"
+              value ="${classes}/messageBus"/>
+    <mkdir dir="${classes.messageBus}"/>
+    <javac srcdir="${src.messageBus}" destdir="${classes.messageBus}">
+      <classpath>
+        <pathelement path="${thirdparty}"/>
+        <fileset dir="${thirdparty}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <pathelement path="${lib}"/>
+        <fileset dir="${lib}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <pathelement location="classes"/>
+      </classpath>
+    </javac>
+    <jar jarfile="${lib}/messageBus.jar"
+         basedir="${classes.messageBus}"/>
+  </target>
+      
+  <!-- ======================= -->
+  <!--     build dbservice     -->
+  <!-- ======================= -->
+  
+  <target name="compile.dbService" depends="compile.messageBus">
+    <property name  ="src.dbService"
+              value ="${src}/java/dbService"/>
+    <property name  ="classes.dbService"
+              value ="${classes}/dbService"/>
+    <mkdir dir="${classes.dbService}"/>
+    <javac srcdir="${src.dbService}" destdir="${classes.dbService}" >
+      <classpath>
+        <pathelement path="${thirdparty}"/>
+        <fileset dir="${thirdparty}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <pathelement path="${lib}"/>
+        <fileset dir="${lib}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <pathelement location="classes"/>
+      </classpath>
+    </javac>
+    <jar jarfile="${lib}/dbService.jar"
+         basedir="${classes.dbService}"/>
+  </target>
+   
+  <!-- =========================== -->
+  <!-- build application container -->
+  <!-- =========================== -->
+
+  <target name="compile.appContainer" depends="compile.dbService">
+  <property name  ="src.appContainer"
+            value ="${src}/java/appContainer"/>
+  <property name  ="classes.appContainer"
+            value ="${classes}/appContainer"/>
+    <mkdir dir="${classes.appContainer}"/>
+    <javac srcdir="${src.appContainer}" destdir="${classes.appContainer}">
+      <classpath>
+        <pathelement path="${thirdparty}"/>
+        <fileset dir="${thirdparty}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <pathelement path="${lib}"/>
+        <fileset dir="${lib}">
+          <include name="**/*.jar"/>
+          <include name="**/*.zip"/>
+        </fileset>
+        <pathelement location="classes"/>
+      </classpath>
+    </javac>
+    <jar jarfile="${lib}/appContainer.jar"
+         basedir="${classes.appContainer}"/>
+  </target>
+</project>

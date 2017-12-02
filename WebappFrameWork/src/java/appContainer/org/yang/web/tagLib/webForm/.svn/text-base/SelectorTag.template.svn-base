@@ -1,0 +1,92 @@
+        <tr>
+          <td bgcolor    = "#000066" 
+              background = "/wf/default/images/bar_bk.gif" 
+              colspan    = "2" 
+              class      = "bigger">
+              <font color="#FFFFFF"><b><a name="group"></a>Groups</b></font>
+          </td>
+        </tr>
+        
+        
+        
+        <tr>
+          <td class="smallest" align="center">$note$</td>
+        </tr>
+        
+        
+        
+        <tr>
+          <td>
+            <table border      = "1" 
+                   cellspacing = "0" 
+                   cellpadding = "3" 
+                   bordercolorlight = "#CCCCCC" 
+                   bordercolor      = "#CCCCCC" 
+                   bordercolordark  = "#FFFFFF" 
+                   bgcolor          = "#EAEAEA" 
+                   align            = "center" 
+                   width            = "100%" 
+                   ID               = "Table7">
+              <tr align="center">
+                <td nowrap>
+                  <table width="200" border="0" cellspacing="0" cellpadding="3" ID="Table8">
+                    <tr bgcolor="#CCCCCC" align="center">
+                      <td nowrap class="bigger"><b>$unselectedBoxCaption$</b></td>
+                    </tr>
+                    <tr align="center">
+                      <td>
+                        <select name="groups" size="6" multiple ID="Select2">
+                        </select>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td nowrap valign="middle">
+                  <p><a href="$addAction$"><img src="$addIcon$" border="0" alt="$addCaption$"></a></p>
+                  <p><a href="$removeAction$"><img src="$removeIcon$" border="0" alt="$removeCaption$"></p>
+                </td>
+                <td nowrap>
+                  <table width="200" border="0" cellspacing="0" cellpadding="3" ID="Table9">
+                    <tr bgcolor="#CCCCCC" align="center">
+                      <td nowrap class="bigger"><b>$selectedBoxCaption$</b></td>
+                    </tr>
+                    <tr align="center">
+                      <td>
+                        <select name="groups" size="6" multiple ID="Select3">
+                          <option value="ENGINEER">Engineer</option>
+                          <option value="ACCOUNTMANAGER">AccountManager</option>
+                          <option value="EDITOR">Editor</option>
+                          <option value="WRITER">Writer</option>
+                        </select>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        
+        
+        
+        
+        <tr>
+          <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" ID="Table10">
+              <tr valign="top">
+                <td class="smallest"><b><a href="#top"><img src="/wf/default/images/top.gif" border="0" alt="Go to top of page"></a></b>
+                </td>
+                <td valign="top" align="right">
+                  <a href        = "javascript:top.topFrame.openSWHelpWindow('/wf/default/help/English/help.jsp?right=admin_user.htm#group')" 
+                     onMouseOut  = "MM_swapImgRestore()" 
+                     onMouseOver = "MM_swapImage('img_help2','','/wf/default/images/English/btn_help_on.gif',1)">
+                    <img name   = "img_help2" 
+                         src    = "/wf/default/images/English/btn_help.gif" 
+                         border = "0" 
+                         alt    = "Help">
+                  </a>&nbsp;
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>

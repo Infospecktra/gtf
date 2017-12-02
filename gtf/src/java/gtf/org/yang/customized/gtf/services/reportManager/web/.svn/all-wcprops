@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web
+END
+ReportsBrowsingPanelBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ReportsBrowsingPanelBean.java
+END
+ReportsBrowsingPanelBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ReportsBrowsingPanelBuilder.java
+END
+ReportsListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ReportsListBean.java
+END
+StageAccessFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/StageAccessFormBuilder.java
+END
+ReportsSearchingControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ReportsSearchingControl.java
+END
+ReportsBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ReportsBean.java
+END
+ReportMasterTableBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ReportMasterTableBuilder.java
+END
+ProjectInformationFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ProjectInformationFormBuilder.java
+END
+ProjectNotesFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ProjectNotesFormBuilder.java
+END
+ReportsBrowsingControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ReportsBrowsingControl.java
+END
+ReportsStageAccessBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ReportsStageAccessBean.java
+END
+ReportProjectInformationBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Infospecktra/!svn/ver/2/trunk/gtf/src/java/gtf/org/yang/customized/gtf/services/reportManager/web/ReportProjectInformationBean.java
+END
