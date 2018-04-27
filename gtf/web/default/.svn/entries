@@ -1,0 +1,35 @@
+10
+
+dir
+0
+https://192.168.0.90:9443/svn/Infospecktra/trunk/gtf/web/default
+https://192.168.0.90:9443/svn/Infospecktra
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cd7c4564-3f4c-b54f-b218-d604ec4a49ca
+
+images
+dir
+
+
+
+add
+

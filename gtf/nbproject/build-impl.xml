@@ -1060,6 +1060,76 @@ exists or setup the property manually. For example like this:
         <copyfiles files="${file.reference.jai_core.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
         <copyfiles files="${file.reference.Keypoint.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
         <copyfiles files="${file.reference.j2ee.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.1_3.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.activation.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.avalon-framework-4.0.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.batik.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.bsf.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.classes12.zip-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.common_sejin.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.commons-codec-1.7.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.commons-fileupload-1.0.jar-3}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.commons-fileupload-1.2.2.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.commons-lang-2.0.jar-3}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.DeprecatedNeuralUtil.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.fop.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.ftpclient.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.httpclient.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.j2ee.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jaxp.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jboss-j2ee.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jboss-jmx.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jboss.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jbossmq-client.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jce-jdk13-110.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jcommon-0.9.6.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jcvsii.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jfreechart-0.9.21-demo-all.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jfreechart-0.9.21-demo.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jfreechart-0.9.21.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jhall.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.Jindent.jar-1}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.JindentHelp.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jmat_5.0.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jmx-rmi-adaptor.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jmxremote.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jmxremote_optional.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jmxri.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jmxtools.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jnpserver.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jotm.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.js.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jta-spec1_0_1.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.junit.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.jxl.jar-2}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.Keypoint.jar-2}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.l2fprod-common-all.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.lime.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.local_policy.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.log4j.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.logkit-1.0.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.mail.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.mm.mysql-2.0.4-bin.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.mysql-connector-java-3.0.11-stable-bin.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.NetComponents.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.NeuralUtil.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.optit.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.org.mortbay.jetty.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.org.mortbay.jetty.plus.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.primrose.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.sdrm.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.servlet-api.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.servlet.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.soap.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.sshtools-j2ssh-0.1.5-beta-2003-04-30.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.tibcrypt.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.tibjms.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.tibjmsadmin.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.tibjmsapps.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.Tidy.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.xalan.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.xerces.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${file.reference.xml-apis.jar}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
         <mkdir dir="${build.web.dir}/META-INF"/>
         <manifest file="${build.web.dir}/META-INF/MANIFEST.MF" mode="update"/>
     </target>
@@ -1115,6 +1185,76 @@ exists or setup the property manually. For example like this:
         <copyfiles files="${file.reference.jai_core.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
         <copyfiles files="${file.reference.Keypoint.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
         <copyfiles files="${file.reference.j2ee.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.1_3.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.activation.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.avalon-framework-4.0.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.batik.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.bsf.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.classes12.zip-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.common_sejin.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.commons-codec-1.7.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.commons-fileupload-1.0.jar-3}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.commons-fileupload-1.2.2.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.commons-lang-2.0.jar-3}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.DeprecatedNeuralUtil.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.fop.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.ftpclient.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.httpclient.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.j2ee.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jaxp.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jboss-j2ee.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jboss-jmx.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jboss.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jbossmq-client.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jce-jdk13-110.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jcommon-0.9.6.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jcvsii.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jfreechart-0.9.21-demo-all.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jfreechart-0.9.21-demo.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jfreechart-0.9.21.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jhall.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.Jindent.jar-1}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.JindentHelp.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jmat_5.0.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jmx-rmi-adaptor.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jmxremote.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jmxremote_optional.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jmxri.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jmxtools.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jnpserver.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jotm.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.js.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jta-spec1_0_1.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.junit.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.jxl.jar-2}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.Keypoint.jar-2}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.l2fprod-common-all.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.lime.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.local_policy.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.log4j.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.logkit-1.0.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.mail.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.mm.mysql-2.0.4-bin.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.mysql-connector-java-3.0.11-stable-bin.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.NetComponents.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.NeuralUtil.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.optit.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.org.mortbay.jetty.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.org.mortbay.jetty.plus.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.primrose.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.sdrm.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.servlet-api.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.servlet.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.soap.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.sshtools-j2ssh-0.1.5-beta-2003-04-30.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.tibcrypt.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.tibjms.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.tibjmsadmin.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.tibjmsapps.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.Tidy.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.xalan.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.xerces.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+        <copyfiles files="${file.reference.xml-apis.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
     </target>
     <target depends="init" if="dist.ear.dir" name="-clean-webinf-lib">
         <delete dir="${build.web.dir}/WEB-INF/lib"/>

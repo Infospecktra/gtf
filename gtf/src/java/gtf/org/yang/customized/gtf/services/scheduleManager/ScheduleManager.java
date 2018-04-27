@@ -184,16 +184,7 @@ public class ScheduleManager extends GenericGTFService
       }
    }
 
-   /**
- * this method will delete a permisiion where its gid ,sid and area equals input gid ,sid and area
- * Note: this method can only be used to resulve one area element collumm in permission table
- * for multiple elements areas can not be used here
- * @param      gid  group   id
- * @param      sid  service id
- * @param      area the area name . Note: only singal area name
- * @return     true means all associated permssions were deleted
- * @exception  DataAccessEception
- */
+ 
    public boolean createProject(Project project) throws ProjectDataAccessException
    {
       if(null==project)

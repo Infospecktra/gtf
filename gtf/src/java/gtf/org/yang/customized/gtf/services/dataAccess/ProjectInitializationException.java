@@ -8,8 +8,6 @@ package org.yang.customized.gtf.services.dataAccess;
  * @author Lei Liu
  * @version 1.0
  */
-
-
 public class ProjectInitializationException extends Exception{
    public ProjectInitializationException() {
         super();

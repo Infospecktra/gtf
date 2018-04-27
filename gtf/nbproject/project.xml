@@ -210,6 +210,286 @@
                     <file>${file.reference.j2ee.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
+                <library dirs="200">
+                    <file>${file.reference.1_3.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.activation.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.avalon-framework-4.0.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.bsf.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.classes12.zip-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.common_sejin.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-codec-1.7.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.0.jar-3}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.2.2.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-lang-2.0.jar-3}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.DeprecatedNeuralUtil.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.fop.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.ftpclient.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.httpclient.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.j2ee.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jaxp.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jboss-j2ee.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jboss-jmx.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jboss.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jbossmq-client.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jce-jdk13-110.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jcommon-0.9.6.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jcvsii.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jfreechart-0.9.21-demo-all.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jfreechart-0.9.21-demo.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jfreechart-0.9.21.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jhall.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.Jindent.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.JindentHelp.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jmat_5.0.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jmx-rmi-adaptor.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jmxremote.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jmxremote_optional.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jmxri.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jmxtools.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jnpserver.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jotm.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.js.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jta-spec1_0_1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.junit.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jxl.jar-2}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.Keypoint.jar-2}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.l2fprod-common-all.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.lime.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.local_policy.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.log4j.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.logkit-1.0.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.mail.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.mm.mysql-2.0.4-bin.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.mysql-connector-java-3.0.11-stable-bin.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.NetComponents.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.NeuralUtil.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.optit.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.org.mortbay.jetty.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.org.mortbay.jetty.plus.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.primrose.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.sdrm.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.servlet-api.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.servlet.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.soap.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.sshtools-j2ssh-0.1.5-beta-2003-04-30.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tibcrypt.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tibjms.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tibjmsadmin.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tibjmsapps.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.Tidy.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xalan.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xerces.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xml-apis.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
             </web-module-libraries>
             <web-module-additional-libraries/>
             <source-roots>

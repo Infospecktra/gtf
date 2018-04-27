@@ -34,6 +34,7 @@ import org.yang.customized.gtf.services.GTFService;
 import org.yang.customized.gtf.services.GenericGTFService;
 import org.yang.services.dataAccess.TypeIDAOImpl;
 
+
 public class ProjectManager extends GenericGTFService
 {
    private ProjectManagerArea[] areas = null;
